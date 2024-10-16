@@ -1,0 +1,5 @@
+# Mac OS nonsense
+.DS_Store
+
+# quarto
+_site/
