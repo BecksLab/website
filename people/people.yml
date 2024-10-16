@@ -3,7 +3,7 @@
   tiles:
     - title: "Andrew P. Beckerman"
       description: "Ecologist (sometimes)"
-      #image: people/mugshots/mugshot.png
+      image: people/mugshots/abeckerman.jpg
       email: andrew.p.beckerman@sheffield.ac.uk
       github: andbeck
       orcid: 0000-0002-4797-9143
@@ -21,50 +21,50 @@
       www: https://tanyadoesscience.com/
     - title: "Thomas F. Johnson"
       description: "BigData ecology"
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/tjohnson.jpg
       github: GitTFJ
     - title: "Alain Danet"
       description: "Stability"
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/adanet.jpg
       github: alaindanet
     - title: "Gidey Yirga"
       description: "Human Wildlife conflict"
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/gyirga.jpg
 
 - category: Graduate Students
   tiles:
     - title: "Alina Smith"
       description: ""
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/asmith.jpg
     - title: "Hana Mayall"
       description: ""
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/hmayall.jpg
       github: hanamayall
     - title: "Penelope Blyth"
       description: ""
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/pblyth.jpg
       github: BlythPenelope
     - title: "Zuzanna Zagrodka"
       description: ""
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/zzagrodka.jpg
 
 - category: Other
   tiles:
     - title: "Dylan Childs"
       role: "Groupie"
       description: Population Dynamics
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/dchilds.jpg
       github: dzchilds
     - title: "Thomas Malpas"
       role: "Co-supervision"
       description: Birds (and some tipping points)
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/tmalpas.jpg
       github: Thomalpas
     - title: "Matthew Clements"
       role: "Groupie"
       description: Population Dynamics
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/mclements.jpg
     - title: "Laura Landon Blake"
       role: "Groupie"
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/llandonblake.jpg
       github: LalaBinks
