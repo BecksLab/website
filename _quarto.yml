@@ -8,9 +8,9 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: about
+        text: About
       - href: people.qmd
-        text: people
+        text: People
 
 format:
   html:
