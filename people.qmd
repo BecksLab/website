@@ -1,78 +1,17 @@
 ---
-title: "Meet the Group"
+title: "Meet the Team"
+format:
+  html:
+    toc: false
+image: articles/advanced-layout-pdf.png
+search: false
+execute:
+  echo: false
 listing:
-  - id: pi
-    include: 
-      people_group: "pi"
-    exclude:
-      external: true
-    template: assets/ejs/people_box.ejs
-    type: grid
-    fields: [title, subtitle, image, education]
-  - id: researcher
-    include: 
-      people_group: "researcher"
-    exclude:
-      external: true
-    template: assets/ejs/people_box.ejs
-    sort: title
-    type: grid
-    fields: [title, subtitle, image, education]
-  - id: postdoc
-    include: 
-      people_group: "postdoc"
-    exclude:
-      external: true
-    template: assets/ejs/people_box_test.ejs
-    sort: title   
-    type: grid
-    fields: [title, subtitle, image, education]
-  - id: gradstudent
-    include: 
-      people_group: "gradstudent"
-    exclude:
-      external: true
-    template: assets/ejs/people_box.ejs
-    sort: title
-    type: grid
-    fields: [title, subtitle, image, education]
-  - id: alumni
-    include: 
-      people_group: "alumni"
-    exclude:
-      external: true
-    template: assets/ejs/people_box.ejs
-    sort: title
-    type: grid
-    fields: [title, subtitle, image, education, altsubtitle, alteducation]
-page-layout: full
+  - id: gallery
+    template: assets/ejs/people.ejs
+    contents: people/people.yml
+description: |
+  Stuff (if we want)
+
 ---
-
-
-## Principal Investigator
-
-
-::: {#pi}
-:::
-
-
-## Research Scientists
-
-
-
-::: {#researcher}
-:::
-
-
-## Postdoctoral Fellows
-
-::: {#postdoc}
-:::
-
-## Graduate Students
-
-
-
-::: {#gradstudent}
-:::
-

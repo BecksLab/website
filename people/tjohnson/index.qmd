@@ -1,6 +1,0 @@
----
-title: "Thomas F. Johnson"
-description: "Bigdata ecology"
-#image: mugshot.png
-people_group: postdoc
----
