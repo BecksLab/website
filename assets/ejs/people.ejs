@@ -10,10 +10,10 @@
   <% for (const tile of item.tiles) { %>
     <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" <%= metadataAttrs(tile) %>>
 
-      <img src="<%- tile.image %>" alt="<%- tile.title %>" class="card-img-top"/>
+      <img src="<%- tile.image %>" alt="<%- tile.name %>" class="card-img-top"/>
 
       <div style="text-align: center">
-        <b><%- tile.title %></b>
+        <b><%- tile.name %></b>
         <br>
         <% if (tile.role) { %>
           <small><%- tile.role %></small>

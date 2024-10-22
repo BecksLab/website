@@ -1,17 +1,18 @@
 
-- category: PI
+- category: BeckermanLab
   tiles:
-    - title: "Andrew P. Beckerman"
+    - name: "Andrew P. Beckerman"
       description: "Ecologist (sometimes)"
       image: people/mugshots/abeckerman.jpg
       email: andrew.p.beckerman@sheffield.ac.uk
       github: andbeck
       orcid: 0000-0002-4797-9143
       twitter: beckerhopper
-
-- category: Postdocs & Fellows
-  tiles:
-    - title: "Tanya Strydom"
+    - name: "Alain Danet"
+      description: "Stability"
+      image: people/mugshots/adanet.jpg
+      github: alaindanet
+    - name: "Tanya Strydom"
       description: "🦖 DINOSAUR food webs"
       image: people/mugshots/mugshot.png
       email: mailto:tanya.strydom@sheffield.ac.uk
@@ -19,52 +20,48 @@
       bluesky: tanyadoesscience.bsky.social
       orcid: 0000-0001-6067-1349
       www: https://tanyadoesscience.com/
-    - title: "Thomas F. Johnson"
-      description: "BigData ecology"
-      image: people/mugshots/tjohnson.jpg
-      github: GitTFJ
-    - title: "Alain Danet"
-      description: "Stability"
-      image: people/mugshots/adanet.jpg
-      github: alaindanet
-    - title: "Gidey Yirga"
-      description: "Human Wildlife conflict"
-      image: people/mugshots/gyirga.jpg
-
-- category: Graduate Students
-  tiles:
-    - title: "Alina Smith"
+    - name: "Alina Smith"
       description: ""
       image: people/mugshots/asmith.jpg
-    - title: "Hana Mayall"
+    - name: "Hana Mayall"
       description: ""
       image: people/mugshots/hmayall.jpg
       github: hanamayall
-    - title: "Penelope Blyth"
+    - name: "Penelope Blyth"
       description: ""
       image: people/mugshots/pblyth.jpg
       github: BlythPenelope
-    - title: "Zuzanna Zagrodka"
+    - name: "Zuzanna Zagrodka"
       description: ""
       image: people/mugshots/zzagrodka.jpg
 
-- category: Other
+- category: ChildsLab
   tiles:
-    - title: "Dylan Childs"
+    - name: "Dylan Childs"
       role: "Groupie"
       description: Population Dynamics
       image: people/mugshots/dchilds.jpg
       github: dzchilds
-    - title: "Thomas Malpas"
+    - name: "Thomas Malpas"
       role: "Co-supervision"
       description: Birds (and some tipping points)
       image: people/mugshots/tmalpas.jpg
       github: Thomalpas
-    - title: "Matthew Clements"
+    - name: "Matthew Clements"
       role: "Groupie"
       description: Population Dynamics
       image: people/mugshots/mclements.jpg
-    - title: "Laura Landon Blake"
+    - name: "Laura Landon Blake"
       role: "Groupie"
       image: people/mugshots/llandonblake.jpg
       github: LalaBinks
+
+- category: Fellows
+  tiles:
+    - name: "Gidey Yirga"
+      description: "Human Wildlife conflict"
+      image: people/mugshots/gyirga.jpg
+    - name: "Thomas F. Johnson"
+      description: "BigData ecology"
+      image: people/mugshots/tjohnson.jpg
+      github: GitTFJ
