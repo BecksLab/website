@@ -13,5 +13,15 @@ listing:
     contents: people/people.yml
 description: |
   Stuff (if we want)
-
 ---
+
+
+We could split the people by lab group? (It doesn't want to make a pretty toc :()
+
+-   [BeckermanLab](#beckermanlab)
+-   [ChildsLab](#childslab)
+-   [Associated fellows](#fellows)
+
+
+::: {#gallery .column-page}
+:::
