@@ -4,3 +4,6 @@
 # quarto
 _site/
 /.quarto/
+
+# vscode
+.vscode/settings.json
