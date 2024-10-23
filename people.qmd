@@ -3,7 +3,6 @@ title: "Meet the Team"
 format:
   html:
     toc: false
-image: articles/advanced-layout-pdf.png
 search: false
 execute:
   echo: false
@@ -16,7 +15,7 @@ description: |
 ---
 
 
-We could split the people by lab group? (It doesn't want to make a pretty toc :()
+We could split the people by lab group? (It doesn't want to make a pretty toc 😐)
 
 -   [BeckermanLab](#beckermanlab)
 -   [ChildsLab](#childslab)
