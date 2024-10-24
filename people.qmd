@@ -22,5 +22,5 @@ We could split the people by lab group? (It doesn't want to make a pretty toc ðŸ
 -   [Associated fellows](#fellows)
 
 
-::: {#gallery .column-page}
+::: {#gallery}
 :::
