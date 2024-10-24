@@ -8,6 +8,7 @@
       github: andbeck
       orcid: 0000-0002-4797-9143
       twitter: beckerhopper
+      axis: "foodwebs"
     - name: "Alain Danet"
       description: "Stability"
       image: people/mugshots/adanet.jpg
@@ -20,6 +21,7 @@
       bluesky: tanyadoesscience.bsky.social
       orcid: 0000-0001-6067-1349
       www: https://tanyadoesscience.com/
+      axis: "foodwebs"
     - name: "Alina Smith"
       description: ""
       image: people/mugshots/asmith.jpg
@@ -47,10 +49,12 @@
       description: Birds (and some tipping points)
       image: people/mugshots/tmalpas.jpg
       github: Thomalpas
+      axis: "foodwebs"
     - name: "Matthew Clements"
       role: "Groupie"
       description: Population Dynamics
       image: people/mugshots/mclements.jpg
+      axis: "popdynamics"
     - name: "Laura Landon Blake"
       role: "Groupie"
       image: people/mugshots/llandonblake.jpg

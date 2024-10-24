@@ -5,6 +5,17 @@ description: " "
 draft: false
 editor: source
 lightbox: auto
+listing:
+  - id: gallery
+    template: ../../assets/ejs/people_foodweb.ejs
+    contents: ../../people/people.yml
 ---
 
-blah blah blah
+blah blah blah...
+
+## Associated Researchers
+
+> I don't know how to feel about this...
+
+::: {#gallery}
+:::
