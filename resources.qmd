@@ -1,0 +1,24 @@
+---
+title: "Resources"
+toc: false
+listing:
+  - id: Julia
+    template: assets/ejs/resources.ejs
+    contents:
+        title: Economic Decision Making for Managers
+        university: Brigham Young University
+        number: MPA 612
+        url: https://econw18.classes.andrewheiss.com/
+        logo: resources/END.png
+        semester:
+        - name: Winter 2018
+          url: https://econw18.classes.andrewheiss.com/
+
+#title-block-banner: "#EE6A24"
+page-layout: full
+---
+
+## R
+
+:::{#Julia}
+:::
