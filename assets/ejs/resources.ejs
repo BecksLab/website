@@ -11,19 +11,19 @@
             </p>
             <p class="course-details">
                 <% if (course.github) { %>
-                    <button type="button" class="btn btn-outline-primary">
+                    <span class="badge rounded-pill bg-light">
                         <a href="https://github.com/<%= course.github %>" class="bi bi-github" style="text-decoration:none"> Github</a>
-                    </button>
+                    </span>
                 <%} %>
                 <% if (course.preprint) { %>
-                    <button type="button" class="btn btn-outline-primary">
+                    <span class="badge rounded-pill bg-light">
                         <a href="<%= course.preprint %>" class="bi bi-book" style="text-decoration:none"> Preprint</a>
-                    </button>
+                    </span>
                 <%} %>
                 <% if (course.url) { %>
-                    <button type="button" class="btn btn-outline-primary">
+                    <span class="badge rounded-pill bg-light">
                         <a href="<%= course.url %>" class="bi bi-house-fill" style="text-decoration:none"> Home</a>
-                    </button>
+                    </span>
                 <%} %>
                 <br>
             </p>

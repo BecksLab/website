@@ -22,7 +22,7 @@ listing:
 page-layout: full
 ---
 
-Look its a link to some resources related to our research.
+Look its a link to some resources related to our research
 
 ## Julia
 
