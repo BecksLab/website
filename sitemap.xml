@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://BecksLab.github.io/website/people.html</loc>
-    <lastmod>2024-10-30T09:06:45.870Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/index.html</loc>
-    <lastmod>2024-10-30T09:06:45.870Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/research/software/index.html</loc>
-    <lastmod>2024-10-30T09:06:45.910Z</lastmod>
+    <lastmod>2024-10-30T09:20:05.741Z</lastmod>
   </url>
   <url>
     <loc>https://BecksLab.github.io/website/research/foodwebs/index.html</loc>
-    <lastmod>2024-10-30T09:06:45.908Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/research.html</loc>
-    <lastmod>2024-10-30T09:06:45.907Z</lastmod>
+    <lastmod>2024-10-30T09:20:05.773Z</lastmod>
   </url>
   <url>
     <loc>https://BecksLab.github.io/website/about.html</loc>
-    <lastmod>2024-10-30T09:06:45.859Z</lastmod>
+    <lastmod>2024-10-30T09:20:05.733Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/research.html</loc>
+    <lastmod>2024-10-30T09:20:05.773Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/research/software/index.html</loc>
+    <lastmod>2024-10-30T09:20:05.773Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/index.html</loc>
+    <lastmod>2024-10-30T09:20:05.741Z</lastmod>
   </url>
 </urlset>
