@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>the CESSpit - Food webs</title>
+<title>the CESSpit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,20 +71,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-category','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-category","listing-tiles"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery'] = new List('listing-gallery', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -128,7 +128,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../../assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -138,7 +138,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">the CESSpit</span>
     </a>
   </div>
@@ -149,15 +149,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html"> 
+    <a class="nav-link" href="./people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
 </ul>
@@ -179,213 +179,69 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#associated-researchers" id="toc-associated-researchers" class="nav-link active" data-scroll-target="#associated-researchers">Associated Researchers</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Food webs</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
 
 
-<p>blah blah blah…</p>
-<section id="associated-researchers" class="level2">
-<h2 class="anchored" data-anchor-id="associated-researchers">Associated Researchers</h2>
-<blockquote class="blockquote">
-<p>I don’t know how to feel about this…</p>
-</blockquote>
-<div id="listing-gallery" class="quarto-listing quarto-listing-container-custom">
-
-<div class="list grid" style="column-gap: 10px;">
-
-  
-  
-
-    
-
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="0">
-
-        <img src="../../people/mugshots/abeckerman.jpg" alt="Andrew P. Beckerman" class="card-img-top">
-
-        <div style="text-align: center">
-            <b>Andrew P. Beckerman</b>
-            <br>
-            
-            
-            <small>Ecologist (sometimes)</small>
-            <br>
-            
-            <div class="socialWrap">
-                
-                    <a href="mailto:andrew.p.beckerman@sheffield.ac.uk" class="bi bi-envelope-fill"></a>
-                
-                
-                    <a href="https://github.com/andbeck" class="bi bi-github"></a>
-                
-                  
-                
-                    <a href="https://x.com/beckerhopper" class="bi bi-twitter"></a>
-                    
-                       
-                
-                    <a href="https://orcid.org/0000-0002-4797-9143" class="about-link" rel="" target="">
-                        <i class="bi bi-orcid"></i>
-                        <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
-                    </a>
-                   
-            </div>
-        </div>
-    </div>
-
-    
-  
-
-    
-  
-
-    
-
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
-
-        <img src="../../people/mugshots/mugshot.png" alt="Tanya Strydom" class="card-img-top">
-
-        <div style="text-align: center">
-            <b>Tanya Strydom</b>
-            <br>
-            
-            
-            <small>🦖 DINOSAUR food webs</small>
-            <br>
-            
-            <div class="socialWrap">
-                
-                    <a href="mailto:mailto:tanya.strydom@sheffield.ac.uk" class="bi bi-envelope-fill"></a>
-                
-                
-                    <a href="https://github.com/TanyaS08" class="bi bi-github"></a>
-                
-                
-                    <a href="https://tanyadoesscience.com/" class="bi bi-house-fill"></a>
-                  
-                    
-                
-                    <a href="https://bsky.app/profile/tanyadoesscience.bsky.social" class="about-link" rel="" target="">
-                        <i class="bi bi-bluesky"></i>
-                        <span><i class="fa-brands fa-bluesky"></i></span>
-                    </a>
-                       
-                
-                    <a href="https://orcid.org/0000-0001-6067-1349" class="about-link" rel="" target="">
-                        <i class="bi bi-orcid"></i>
-                        <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
-                    </a>
-                   
-            </div>
-        </div>
-    </div>
-
-    
-  
-
-    
-  
-
-    
-  
-
-    
-  
-
-    
-  
-
-  
-  
-
-    
-  
-
-    
-
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
-
-        <img src="../../people/mugshots/tmalpas.jpg" alt="Thomas Malpas" class="card-img-top">
-
-        <div style="text-align: center">
-            <b>Thomas Malpas</b>
-            <br>
-            
-            <small>Co-supervision</small>
-            <br>
-            
-            
-            <small>Birds (and some tipping points)</small>
-            <br>
-            
-            <div class="socialWrap">
-                
-                
-                    <a href="https://github.com/Thomalpas" class="bi bi-github"></a>
-                
-                  
-                    
-                       
-                   
-            </div>
-        </div>
-    </div>
-
-    
-  
-
-    
-  
-
-    
-  
-
-  
-  
-
-    
-  
-
-    
-  
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1729769609741" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<a href="./research/foodwebs/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./research/foodwebs/network.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Food webs
+</h5>
+<div class="card-text listing-description">
 
 </div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1729084165604" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<a href="./research/software/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./research/software/end_logo.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Software
+</h5>
+<div class="card-text listing-description">
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-
-
-
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
