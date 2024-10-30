@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Food webs – the CESSpit</title>
+<title>Resources – the CESSpit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,20 +23,20 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-3bdadfe050f0b2fef367b7d1246eb2cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3bdadfe050f0b2fef367b7d1246eb2cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -55,20 +55,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery .list');
+    const listingTargetEl = window.document.querySelector('#listing-Julia .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-category','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-university','listing-number','listing-url','listing-logo','listing-semester',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-category","listing-tiles"],
+      searchColumns: ["listing-title","listing-university","listing-number","listing-url","listing-logo","listing-semester"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery'] = new List('listing-gallery', options);
+    window['quarto-listings']['listing-Julia'] = new List('listing-Julia', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -112,7 +112,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../../assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -122,7 +122,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">the CESSpit</span>
     </a>
   </div>
@@ -132,21 +132,21 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html"> 
+    <a class="nav-link" href="./people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
+    <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html"> 
+    <a class="nav-link active" href="./resources.html" aria-current="page"> 
 <span class="menu-text">Resources</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../join.html"> 
+    <a class="nav-link" href="./join.html"> 
 <span class="menu-text">Join Us</span></a>
   </li>  
   <li class="nav-item compact">
@@ -162,29 +162,21 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#associated-researchers" id="toc-associated-researchers" class="nav-link active" data-scroll-target="#associated-researchers">Associated Researchers</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Food webs</h1>
+<h1 class="title">Resources</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -196,173 +188,41 @@ window.Quarto = {
 </header>
 
 
-<p>blah blah blah…</p>
-<section id="associated-researchers" class="level2">
-<h2 class="anchored" data-anchor-id="associated-researchers">Associated Researchers</h2>
-<blockquote class="blockquote">
-<p>I don’t know how to feel about this…</p>
-</blockquote>
-<div id="listing-gallery" class="quarto-listing quarto-listing-container-custom">
-
-<div class="list grid" style="column-gap: 10px;">
-
-  
-  
-
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<div id="listing-Julia" class="quarto-listing quarto-listing-container-custom">
+<div class="teaching">
     
-
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="0">
-
-        <img src="../../people/mugshots/abeckerman.jpg" alt="Andrew P. Beckerman" class="card-img-top">
-
-        <div style="text-align: center">
-            <b>Andrew P. Beckerman</b>
-            <br>
+    <div class="course-entry">
+        <div class="logo">
             
+            <a href="https://econw18.classes.andrewheiss.com/" target="_blank"><img src="resources/END.png" alt="Economic Decision Making for Managers" title="Economic Decision Making for Managers"></a>
             
-            <small>Ecologist (sometimes)</small>
-            <br>
-            
-            <div class="socialWrap">
+        </div>
+        <div class="body">
+            <p class="course-title">
                 
-                    <a href="mailto:andrew.p.beckerman@sheffield.ac.uk" class="bi bi-envelope-fill"></a>
+                <a href="https://econw18.classes.andrewheiss.com/" target="_blank">Economic Decision Making for Managers</a> 
+                
+            </p>
+            <p class="course-details">
+                <span class="course-number">MPA 612</span> | 
+                <span class="course-university">Brigham Young University</span>
+                
+            </p>
+            <p class="course-description"></p>
+
+            <ul class="course-semesters">
                 
                 
-                    <a href="https://github.com/andbeck" class="bi bi-github"></a>
+                <li><a href="https://econw18.classes.andrewheiss.com/"><i class="fa-solid fa-building-columns"></i> Winter 2018</a></li>
                 
-                  
                 
-                    <a href="https://x.com/beckerhopper" class="bi bi-twitter"></a>
-                    
-                       
-                
-                    <a href="https://orcid.org/0000-0002-4797-9143" class="about-link" rel="" target="">
-                        <i class="bi bi-orcid"></i>
-                        <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
-                    </a>
-                   
-            </div>
+            </ul>
         </div>
     </div>
-
     
-  
-
-    
-  
-
-    
-
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
-
-        <img src="../../people/mugshots/mugshot.png" alt="Tanya Strydom" class="card-img-top">
-
-        <div style="text-align: center">
-            <b>Tanya Strydom</b>
-            <br>
-            
-            
-            <small>🦖 DINOSAUR food webs</small>
-            <br>
-            
-            <div class="socialWrap">
-                
-                    <a href="mailto:mailto:tanya.strydom@sheffield.ac.uk" class="bi bi-envelope-fill"></a>
-                
-                
-                    <a href="https://github.com/TanyaS08" class="bi bi-github"></a>
-                
-                
-                    <a href="https://tanyadoesscience.com/" class="bi bi-house-fill"></a>
-                  
-                    
-                
-                    <a href="https://bsky.app/profile/tanyadoesscience.bsky.social" class="about-link" rel="" target="">
-                        <i class="bi bi-bluesky"></i>
-                        <span><i class="fa-brands fa-bluesky"></i></span>
-                    </a>
-                       
-                
-                    <a href="https://orcid.org/0000-0001-6067-1349" class="about-link" rel="" target="">
-                        <i class="bi bi-orcid"></i>
-                        <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
-                    </a>
-                   
-            </div>
-        </div>
-    </div>
-
-    
-  
-
-    
-  
-
-    
-  
-
-    
-  
-
-    
-  
-
-  
-  
-
-    
-  
-
-    
-
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
-
-        <img src="../../people/mugshots/tmalpas.jpg" alt="Thomas Malpas" class="card-img-top">
-
-        <div style="text-align: center">
-            <b>Thomas Malpas</b>
-            <br>
-            
-            <small>Co-supervision</small>
-            <br>
-            
-            
-            <small>Birds (and some tipping points)</small>
-            <br>
-            
-            <div class="socialWrap">
-                
-                
-                    <a href="https://github.com/Thomalpas" class="bi bi-github"></a>
-                
-                  
-                    
-                       
-                   
-            </div>
-        </div>
-    </div>
-
-    
-  
-
-    
-  
-
-    
-  
-
-  
-  
-
-    
-  
-
-    
-  
-
 </div>
-
 <div class="listing-no-matching d-none">
 No matching items
 </div>
