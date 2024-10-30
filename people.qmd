@@ -1,5 +1,7 @@
 ---
 title: "Meet the Team"
+description: |
+  Stuff (if we want)
 format:
   html:
     toc: false
@@ -10,8 +12,10 @@ listing:
   - id: gallery
     template: assets/ejs/people.ejs
     contents: people/people.yml
-description: |
-  Stuff (if we want)
+page-layout: full
+toc: true
+toc-location: right
+toc-title: People groups
 ---
 
 
