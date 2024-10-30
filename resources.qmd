@@ -5,20 +5,31 @@ listing:
   - id: Julia
     template: assets/ejs/resources.ejs
     contents:
-        title: Economic Decision Making for Managers
-        university: Brigham Young University
-        number: MPA 612
-        url: https://econw18.classes.andrewheiss.com/
+        title: EcologicalNetworksDynamics.jl
+        description: blah blah blah
+        github: BecksLab/EcologicalNetworksDynamics.jl
+        preprint: https://doi.org/10.1101/2024.03.20.585899
         logo: resources/END.png
-        semester:
-        - name: Winter 2018
-          url: https://econw18.classes.andrewheiss.com/
+  - id: R
+    template: assets/ejs/resources.ejs
+    contents:
+        title: R4All
+        description: book blah blah blah
+        url: http://r4all.org
+        logo: resources/END.png
 
 #title-block-banner: "#EE6A24"
 page-layout: full
 ---
 
+Look its a link to some resources related to our research.
+
 ## Julia
 
 :::{#Julia}
+:::
+
+## R
+
+:::{#R}
 :::
