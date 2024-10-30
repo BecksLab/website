@@ -3,17 +3,18 @@ project:
 
 website:
   title: "the CESSpit"
+  search: false
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: people.qmd
         text: People
       - href: research.qmd
         text: Research
-    right: 
-      - icon: github
-        href: https://github.com/BecksLab
+    right:
+      - href: join.qmd
+        text: Join Us
+      - href: https://github.com/BecksLab
+        icon: github
 
 format:
   html:
