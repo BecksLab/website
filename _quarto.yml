@@ -10,6 +10,8 @@ website:
         text: People
       - href: research.qmd
         text: Research
+      - href: resources.qmd
+        text: Resources
     right:
       - href: join.qmd
         text: Join Us
@@ -18,7 +20,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, mystyles.scss]
     toc: true
     format:
     css: assets/css/styles.css
