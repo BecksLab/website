@@ -18,7 +18,7 @@ listing:
 page-layout: full
 ---
 
-## R
+## Julia
 
 :::{#Julia}
 :::
