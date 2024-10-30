@@ -36,7 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3bdadfe050f0b2fef367b7d1246eb2cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d81dd8c7704f145264a1430750cfb78c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -62,13 +62,41 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-university','listing-number','listing-url','listing-logo','listing-semester',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-description','listing-github','listing-preprint','listing-logo',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-university","listing-number","listing-url","listing-logo","listing-semester"],
+      searchColumns: ["listing-title","listing-description","listing-github","listing-preprint","listing-logo"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-Julia'] = new List('listing-Julia', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-R .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-url','listing-logo',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-url","listing-logo"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-R'] = new List('listing-R', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -188,6 +216,7 @@ window.Quarto = {
 </header>
 
 
+<p>Look its a link to some resources related to our research.</p>
 <section id="julia" class="level2">
 <h2 class="anchored" data-anchor-id="julia">Julia</h2>
 <div id="listing-Julia" class="quarto-listing quarto-listing-container-custom">
@@ -195,30 +224,62 @@ window.Quarto = {
     
     <div class="course-entry">
         <div class="logo">
-            
-            <a href="https://econw18.classes.andrewheiss.com/" target="_blank"><img src="resources/END.png" alt="Economic Decision Making for Managers" title="Economic Decision Making for Managers"></a>
-            
+            <img src="resources/END.png" alt="EcologicalNetworksDynamics.jl" title="EcologicalNetworksDynamics.jl">
         </div>
         <div class="body">
             <p class="course-title">
-                
-                <a href="https://econw18.classes.andrewheiss.com/" target="_blank">Economic Decision Making for Managers</a> 
-                
+                EcologicalNetworksDynamics.jl
             </p>
             <p class="course-details">
-                <span class="course-number">MPA 612</span> | 
-                <span class="course-university">Brigham Young University</span>
                 
+                    <button type="button" class="btn btn-outline-primary">
+                        <a href="https://github.com/BecksLab/EcologicalNetworksDynamics.jl" class="bi bi-github" style="text-decoration:none"> Github</a>
+                    </button>
+                
+                
+                    <button type="button" class="btn btn-outline-primary">
+                        <a href="https://doi.org/10.1101/2024.03.20.585899" class="bi bi-book" style="text-decoration:none"> Preprint</a>
+                    </button>
+                
+                
+                <br>
             </p>
-            <p class="course-description"></p>
+            <p class="course-description">blah blah blah</p>
 
-            <ul class="course-semesters">
+        </div>
+    </div>
+    
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<div id="listing-R" class="quarto-listing quarto-listing-container-custom">
+<div class="teaching">
+    
+    <div class="course-entry">
+        <div class="logo">
+            <img src="resources/END.png" alt="R4All" title="R4All">
+        </div>
+        <div class="body">
+            <p class="course-title">
+                R4All
+            </p>
+            <p class="course-details">
                 
                 
-                <li><a href="https://econw18.classes.andrewheiss.com/"><i class="fa-solid fa-building-columns"></i> Winter 2018</a></li>
                 
+                    <button type="button" class="btn btn-outline-primary">
+                        <a href="http://r4all.org" class="bi bi-house-fill" style="text-decoration:none"> Home</a>
+                    </button>
                 
-            </ul>
+                <br>
+            </p>
+            <p class="course-description">book blah blah blah</p>
+
         </div>
     </div>
     
