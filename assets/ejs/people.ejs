@@ -37,13 +37,13 @@
             <a href="https://x.com/<%= tile.twitter %>" class="bi bi-twitter"></a>
           <%} %>    
           <% if (tile.bluesky) { %>
-            <a href="https://bsky.app/profile/<%= tile.bluesky %>" class="about-link" rel="" target="">
+            <a href="https://bsky.app/profile/<%= tile.bluesky %>" class="about-link" style="text-decoration:none" rel="" target="">
               <i class="bi bi-bluesky"></i>
                 <span><i class="fa-brands fa-bluesky"></i></span>
             </a>
           <%} %>       
           <% if (tile.orcid) { %>
-            <a href="https://orcid.org/<%= tile.orcid %>" class="about-link" rel="" target="">
+            <a href="https://orcid.org/<%= tile.orcid %>" class="about-link" style="text-decoration:none" rel="" target="">
               <i class="bi bi-orcid"></i>
               <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
             </a>
