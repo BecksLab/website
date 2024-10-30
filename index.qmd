@@ -1,7 +1,7 @@
 ---
 title: "the CESSpit"
 pagetitle: "the CESSpit"
-subtitle: "the Computational and Ecology Society of Sheffield"
+subtitle: "the Computational Ecology Society of Sheffield"
 image: research/foodwebs/network.jpg
 
 about:
