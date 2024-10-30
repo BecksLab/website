@@ -1,0 +1,17 @@
+[
+  {
+    "listing": "/people.html",
+    "items": []
+  },
+  {
+    "listing": "/research/foodwebs/index.html",
+    "items": []
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/research/foodwebs/index.html",
+      "/research/software/index.html"
+    ]
+  }
+]
