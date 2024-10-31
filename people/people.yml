@@ -15,7 +15,7 @@
       github: alaindanet
     - name: "Tanya Strydom"
       description: "🦖 DINOSAUR food webs"
-      image: people/mugshots/mugshot.png
+      image: people/mugshots/tstrydom.png
       email: mailto:tanya.strydom@sheffield.ac.uk
       github: TanyaS08
       bluesky: tanyadoesscience.bsky.social
@@ -33,6 +33,7 @@
       description: ""
       image: people/mugshots/pblyth.jpg
       github: BlythPenelope
+      orcid: 0000-0003-3071-9668
     - name: "Zuzanna Zagrodka"
       description: ""
       image: people/mugshots/zzagrodka.jpg
