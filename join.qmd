@@ -4,6 +4,25 @@ title: "Join Us"
 
 > I personally think its easier to treat this as a 'static' page that gives an overview of joining the lab as opposed to listing actual 'job adverts' since those will need to then be kept up to date - i.e., someone will have to be responsible for that OR we need to create some vaguely RSS feed-like thing...
 
--   Something tha links to resources about how the Sheffield/UK graduate systemTM works for grad students
+-   Something that links to resources about how the Sheffield/UK graduate systemTM works for grad students
 -   Something for masters/undergraduates
--   Something for potential postdoc/fellows that want to join
+
+## {{< fa graduation-cap >}} PhD
+
+Looking for a PhD? We typically work through doctoral training programmes in the UK and posts are advertised Nov-Dec.
+
+International students can apply at anytime. We are happy to help with applications for funding.  Send your CV and ideas.
+
+We've worked with students from Iraq, Kuwait, and Malaysia
+
+## {{< fa users >}} Post Docs
+
+If you are interested in joining the lab as a post doc, via fellowships or independent funding, get in touch with either [Andrew](mailto:andrew.p.beckerman@sheffield.ac.uk) or Dylan (email pending), including your CV and a letter describing your experience and interests.
+
+We've hosted people from around the world including Chile, Sweden, Germany, and Australia
+
+Positions linked to grants will be posted here too.
+
+## {{< fa map >}} Short Visits
+
+We welcome short visits, study leave and sabbatical visitors!
