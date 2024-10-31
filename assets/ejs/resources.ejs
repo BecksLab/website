@@ -10,21 +10,14 @@
                 <%= course.title %>
             </p>
             <p class="course-details">
-                <% if (course.github) { %>
-                    <span class="badge rounded-pill bg-light">
-                        <a href="https://github.com/<%= course.github %>" class="bi bi-github" style="text-decoration:none"> Github</a>
-                    </span>
-                <%} %>
-                <% if (course.preprint) { %>
-                    <span class="badge rounded-pill bg-light">
-                        <a href="<%= course.preprint %>" class="bi bi-book" style="text-decoration:none"> Preprint</a>
-                    </span>
-                <%} %>
-                <% if (course.url) { %>
-                    <span class="badge rounded-pill bg-light">
-                        <a href="<%= course.url %>" class="bi bi-house-fill" style="text-decoration:none"> Home</a>
-                    </span>
-                <%} %>
+                <ul class="course-links">
+                    <% for (const links of course.links) { %>
+                    <% if (links.url) { %>
+                    <li><a href="<%= links.url %>"> <i class="bi bi-<%= links.icon %>"></i> <%= links.name %></a></li>
+                    <% } else { %> 
+                    <li class="no-link"> <%= links.name %></li>
+                    <% } %>
+                    <% } %>
                 <br>
             </p>
             <p class="course-description"><%= course.description %></p>

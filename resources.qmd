@@ -5,24 +5,32 @@ listing:
   - id: Julia
     template: assets/ejs/resources.ejs
     contents:
-        title: EcologicalNetworksDynamics.jl
-        description: blah blah blah
-        github: BecksLab/EcologicalNetworksDynamics.jl
-        preprint: https://doi.org/10.1101/2024.03.20.585899
-        logo: resources/END.png
+        - title: EcologicalNetworksDynamics.jl
+          description: blah blah blah
+          links:
+          - name: "GitHub"
+            icon: github
+            url: https://github.com/BecksLab/EcologicalNetworksDynamics.jl
+          - name: "Preprint"
+            icon: book
+            url: https://doi.org/10.1101/2024.03.20.585899
+          logo: resources/END.png
   - id: R
     template: assets/ejs/resources.ejs
     contents:
-        title: R4All
-        description: book blah blah blah
-        url: http://r4all.org
-        logo: resources/END.png
+        - title: R4All
+          description: "Book blah blah blah"
+          logo: resources/END.png
+          links:
+          - name: "Website"
+            icon: laptop
+            url: http://r4all.org
 
 #title-block-banner: "#EE6A24"
 page-layout: full
 ---
 
-Look its a link to some resources related to our research
+Look its a link to some resources related to our research.
 
 ## Julia
 
