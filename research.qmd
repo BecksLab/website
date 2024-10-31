@@ -1,7 +1,13 @@
 ---
 listing: 
-  contents: research # all Quarto docs in the "research" directory 
-  type: grid # "grid", "default" or "table"
-  categories: false # allows you to sort posts by assigned categories 
-  sort: "title" # can also sort on more than one field
+  - id: research
+    contents: research # all Quarto docs in the "research" directory 
+    type: grid # "grid", "default" or "table"
+    categories: false # allows you to sort posts by assigned categories 
+    sort: "title" # can also sort on more than one field
 ---
+
+Blah blah blah about research projects/axes
+
+:::{#research}
+:::
