@@ -2,29 +2,19 @@
 title: "Meet the Team"
 description: |
   Stuff (if we want)
-format:
-  html:
-    toc: false
-search: false
-execute:
-  echo: false
 listing:
   - id: gallery
     template: assets/ejs/people.ejs
     contents: people/people.yml
-page-layout: full
-toc: true
 toc-location: right
 toc-title: People groups
 ---
-
 
 We could split the people by lab group? (It doesn't want to make a pretty toc 😐)
 
 -   [BeckermanLab](#beckermanlab)
 -   [ChildsLab](#childslab)
 -   [Associated fellows](#fellows)
-
 
 ::: {#gallery}
 :::
