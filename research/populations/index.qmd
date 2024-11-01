@@ -1,6 +1,6 @@
 ---
 title: "{{< fa arrow-up-right-dots >}} Population Dynamics"
-image: network.jpg
+image: images/bane.png
 description: " "
 include-in-header: hero_image.html
 metadata-title: ""
@@ -19,7 +19,7 @@ lightbox: auto
 <center>
 :::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
 <!-- add image url -->
-<img src="https://ala-images.s3.ap-southeast-2.amazonaws.com/store/b/c/3/3/20e67558-6fe7-49cc-964a-aaabca0933cb/original" class="rounded"/></img>
+<img src="images/Baby_yoda.png" class="rounded"/></img>
 :::
 </center>
 <!-- edit caption
@@ -30,7 +30,7 @@ lightbox: auto
 
 ### Publications
 
-blah blah
+blah blah blah...
 
 
 :::
@@ -40,7 +40,7 @@ blah blah
 
 ::: {.paper-main-column}
 
-## <i class="fa-brands fa-jedi-order"></i> Project 1
+## <i class="fa-brands fa-mandalorian"></i> Project 1
 
 blah blah blah
 :::
@@ -59,7 +59,7 @@ blah blah blah
 <center>
 :::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
 <!-- add image url -->
-<img src="https://ala-images.s3.ap-southeast-2.amazonaws.com/store/b/c/3/3/20e67558-6fe7-49cc-964a-aaabca0933cb/original" class="rounded"/></img>
+<img src="images/obiwan.png" class="rounded"/></img>
 :::
 </center>
 <!-- edit caption

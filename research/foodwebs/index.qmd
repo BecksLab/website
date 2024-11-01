@@ -15,11 +15,13 @@ listing:
 
 blah blah blah...
 
-## <i class="fa-brands fa-jedi-order"></i> Project 1
+## <i class="fa-brands fa-galactic-republic"></i> Project 1
+
+![An informative caption](images/hunter.png){width=100%}
 
 blah blah blah...
 
-## <i class="fa-brands fa-galactic-republic"></i> Project 2
+## <i class="fa-brands fa-rebel"></i> Project 2
 
 blah blah blah...
 
@@ -36,7 +38,7 @@ blah blah blah...
 ####  Pressure to publish introduces LLM risks
 
 ::: {.column-margin}
-[![](traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
+[![](images/traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
 :::
 
 Johnson, T. F., Simmons, B. I., Millard, J., **Strydom, T.**, Danet, A. H., Sweeny, A. R., & Evans, L. C. (2024).\
@@ -48,7 +50,7 @@ Johnson, T. F., Simmons, B. I., Millard, J., **Strydom, T.**, Danet, A. H., Swee
 #### Effects of past and present microclimates on northern and southern plant species in a managed forest landscape.
 
 ::: {.column-margin}
-[![](traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
+[![](images/traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
 :::
 
 Christiansen, D. M., **Strydom, T.**, Greiser, C., McClory, R., Ehrlén, J., & Hylander, K. (2023).\
@@ -60,7 +62,7 @@ Christiansen, D. M., **Strydom, T.**, Greiser, C., McClory, R., Ehrlén, J., & H
 #### Bootstrapping outperforms community‑weighted approaches for estimating the shapes of phenotypic distributions.
 
 ::: {.column-margin}
-[![](traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
+[![](images/traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
 :::
 
 Maitner, B. S., Halbritter, A. H., Telford, R. J., **Strydom, T.**, Chacón‑Labella, J., Henderson, A. N., Lamanna, C., Sloat, L. L., Kerkhoff, A. J., Messier, J., Rasmussen, N. L., Pomati, F., Merz, E., Vandvik, V., & Enquist, B. J. (2023)\
