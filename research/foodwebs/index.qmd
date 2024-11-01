@@ -1,7 +1,9 @@
 ---
-title: "Food webs"
+title: "{{< fa circle-nodes >}} Food webs"
 image: network.jpg
 description: " "
+include-in-header: ../../assets/html/hero_image.html
+metadata-title: ""
 draft: false
 editor: source
 lightbox: auto
@@ -13,7 +15,46 @@ listing:
 
 blah blah blah...
 
-## Associated Researchers
+## {{< fa paperclip >}} Publications
+
+####  Pressure to publish introduces LLM risks
+
+::: {.column-margin}
+[![](traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
+:::
+
+Johnson, T. F., Simmons, B. I., Millard, J., **Strydom, T.**, Danet, A. H., Sweeny, A. R., & Evans, L. C. (2024).\
+*Methods in Ecology and Evolution*\
+[{{< fa file-pen >}} Article](https://doi.org/10.1111/2041-210X.14397)
+
+<br>
+
+#### Effects of past and present microclimates on northern and southern plant species in a managed forest landscape.
+
+::: {.column-margin}
+[![](traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
+:::
+
+Christiansen, D. M., **Strydom, T.**, Greiser, C., McClory, R., Ehrlén, J., & Hylander, K. (2023).\
+*Journal of Vegetation Science*\
+[{{< fa file-pen >}} Article](https://doi.org/10.1111/jvs.13197)
+
+<br>
+
+#### Bootstrapping outperforms community‑weighted approaches for estimating the shapes of phenotypic distributions.
+
+::: {.column-margin}
+[![](traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
+:::
+
+Maitner, B. S., Halbritter, A. H., Telford, R. J., **Strydom, T.**, Chacón‑Labella, J., Henderson, A. N., Lamanna, C., Sloat, L. L., Kerkhoff, A. J., Messier, J., Rasmussen, N. L., Pomati, F., Merz, E., Vandvik, V., & Enquist, B. J. (2023)\
+*Methods in Ecology and Evolution*\
+[{{< fa file-pen >}} Article](https://doi.org/10.1111/2041-210X.14160),
+[{{< fa brands github >}} Repo](https://github.com/EnquistLab/trait_bootstrap_ms)
+
+<br>
+
+## {{< fa users >}} Associated Researchers
 
 > I don't know how to feel about this...
 

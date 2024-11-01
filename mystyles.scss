@@ -4,6 +4,8 @@
 $black: #0C1A1A;
 $white: #ffffff;
 
+/* For resource listings */
+
 .teaching {
     .course-entry {
         display: flex;
@@ -75,3 +77,55 @@ $white: #ffffff;
         }
     }
 }
+
+/* Hero image at top of page */
+
+.hero-container {
+    overflow: hidden;
+    position: relative;
+    max-height: 52vh;
+    height: 52vh;
+  }
+  
+.hero-image {
+    position: absolute;
+    /* liner gradient tints the image darker for readability*/
+    background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(research/foodwebs/network.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    //background-color: $blue;
+    display: flex; /* Change to `display: none` for no hero image */
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding: 1vh 0;
+  }
+  
+.image-credit {
+    position: absolute;
+    text-align: right;
+    right: 0.5%;
+    bottom: 0.5%;
+    font-size: 12px;
+    color: $white;
+  }
+
+.hero-title-top {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    color: #ffffff;
+    padding-right: 133px;
+    margin-bottom: -4.7rem;
+    font-weight: bold;
+  }
+
+.hero-title-bottom {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    color: #EEECEA;
+    padding-left: 105px;
+    font-weight: bold;
+  }
