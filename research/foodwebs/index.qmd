@@ -2,7 +2,7 @@
 title: "{{< fa circle-nodes >}} Food webs"
 image: network.jpg
 description: " "
-include-in-header: ../../assets/html/hero_image.html
+include-in-header: hero_image.html
 metadata-title: ""
 draft: false
 editor: source
@@ -12,6 +12,22 @@ listing:
     template: ../../assets/ejs/people_foodweb.ejs
     contents: ../../people/people.yml
 ---
+
+blah blah blah...
+
+## <i class="fa-brands fa-jedi-order"></i> Project 1
+
+blah blah blah...
+
+## <i class="fa-brands fa-galactic-republic"></i> Project 2
+
+blah blah blah...
+
+### {{< fa paperclip >}} Publications
+
+publications relevant to project
+
+## <i class="fa-brands fa-rebel"></i> Project 3
 
 blah blah blah...
 

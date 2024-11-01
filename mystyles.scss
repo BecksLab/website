@@ -90,7 +90,7 @@ $white: #ffffff;
 .hero-image {
     position: absolute;
     /* liner gradient tints the image darker for readability*/
-    background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(research/foodwebs/network.jpg);
+    //background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(research/foodwebs/network.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -128,4 +128,39 @@ $white: #ffffff;
     color: #EEECEA;
     padding-left: 105px;
     font-weight: bold;
+  }
+
+/* For research cards */
+
+.paper-left-column {
+    float: left;
+    width: 35%;
+    padding: 20px 20px;
+    flex-direction: column;
+    background-color: #EEECEA;
+    font-size: .85rem;
+    border-radius: 30px;
+  }
+  
+.paper-main-column {
+    float: left;
+    width: 60%;
+    padding: 0 0px;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+.paper-right-column {
+    float: right;
+    width: 35%;
+    padding: 20px 20px;
+    flex-direction: column;
+    background-color: #EEECEA;
+    font-size: .85rem;
+    border-radius: 30px;
+  }
+
+  
+.col-image {
+    width: 80%;
   }
