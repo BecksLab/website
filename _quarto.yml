@@ -7,11 +7,13 @@ website:
   navbar:
     left:
       - href: people.qmd
-        text: People
+        text: "{{< fa people-group >}} People"
       - href: research.qmd
-        text: Research
+        text: "{{< fa rocket >}} Research"
       - href: resources.qmd
-        text: Resources
+        text: "{{< fa lightbulb >}} Resources"
+      - href: values.qmd
+        text: "{{< fa hand-holding-heart >}} Values"
     right:
       - href: join.qmd
         text: Join Us
