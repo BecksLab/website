@@ -21,11 +21,11 @@
     "text": "blah blah blah…"
   },
   {
-    "objectID": "research/foodwebs/index.html#project-1",
-    "href": "research/foodwebs/index.html#project-1",
+    "objectID": "research/foodwebs/index.html#paleo-networks",
+    "href": "research/foodwebs/index.html#paleo-networks",
     "title": " Food webs",
-    "section": " Project 1",
-    "text": "Project 1\n\n\n\nAn informative caption\n\n\nblah blah blah…"
+    "section": " Paleo Networks",
+    "text": "Paleo Networks"
   },
   {
     "objectID": "research/foodwebs/index.html#project-2",
@@ -49,11 +49,25 @@
     "text": "Publications\n\nPressure to publish introduces LLM risks\n\n\n\nJohnson, T. F., Simmons, B. I., Millard, J., Strydom, T., Danet, A. H., Sweeny, A. R., & Evans, L. C. (2024).\nMethods in Ecology and Evolution\n Article\n\n\n\nEffects of past and present microclimates on northern and southern plant species in a managed forest landscape.\n\n\n\nChristiansen, D. M., Strydom, T., Greiser, C., McClory, R., Ehrlén, J., & Hylander, K. (2023).\nJournal of Vegetation Science\n Article\n\n\n\nBootstrapping outperforms community‑weighted approaches for estimating the shapes of phenotypic distributions.\n\n\n\nMaitner, B. S., Halbritter, A. H., Telford, R. J., Strydom, T., Chacón‑Labella, J., Henderson, A. N., Lamanna, C., Sloat, L. L., Kerkhoff, A. J., Messier, J., Rasmussen, N. L., Pomati, F., Merz, E., Vandvik, V., & Enquist, B. J. (2023)\nMethods in Ecology and Evolution\n Article,  Repo"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "the CESSpit",
+    "objectID": "research/populations/index.html",
+    "href": "research/populations/index.html",
+    "title": " Population Dynamics",
     "section": "",
-    "text": "Blah blah blah about research projects/axes\n\n\n\n\n\n\n\n\n\n\n Population Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Food webs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "blah blah blah…\n\n\n\n\n\nblah blah blah"
+  },
+  {
+    "objectID": "research/populations/index.html#project-1",
+    "href": "research/populations/index.html#project-1",
+    "title": " Population Dynamics",
+    "section": "",
+    "text": "blah blah blah"
+  },
+  {
+    "objectID": "research/populations/index.html#project-2",
+    "href": "research/populations/index.html#project-2",
+    "title": " Population Dynamics",
+    "section": " Project 2",
+    "text": "Project 2\nblah blah blah"
   },
   {
     "objectID": "values.html",
@@ -77,25 +91,18 @@
     "text": "Why we care\nblah blah blah"
   },
   {
-    "objectID": "research/populations/index.html",
-    "href": "research/populations/index.html",
-    "title": " Population Dynamics",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "the CESSpit",
     "section": "",
-    "text": "blah blah blah…\n\n\n\n\n\nblah blah blah"
+    "text": "Blah blah blah about research projects/axes\n\n\n\n\n\n\n\n\n\n\n Population Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Food webs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Open Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "research/populations/index.html#project-1",
-    "href": "research/populations/index.html#project-1",
-    "title": " Population Dynamics",
+    "objectID": "research/open_sci/index.html",
+    "href": "research/open_sci/index.html",
+    "title": " Open Science",
     "section": "",
-    "text": "blah blah blah"
-  },
-  {
-    "objectID": "research/populations/index.html#project-2",
-    "href": "research/populations/index.html#project-2",
-    "title": " Population Dynamics",
-    "section": " Project 2",
-    "text": "Project 2\nblah blah blah"
+    "text": "blah blah blah…"
   },
   {
     "objectID": "resources.html",
