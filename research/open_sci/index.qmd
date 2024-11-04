@@ -1,0 +1,12 @@
+---
+title: "{{< fa globe >}} Open Science"
+image: Momo.png
+description: " "
+include-in-header: hero_image.html
+metadata-title: ""
+draft: false
+editor: source
+lightbox: auto
+---
+
+blah blah blah...
