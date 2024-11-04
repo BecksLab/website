@@ -7,15 +7,31 @@ metadata-title: ""
 draft: false
 editor: source
 lightbox: auto
+toc: false
 ---
 
 blah blah blah...
 
-## <i class="fa-brands fa-galactic-republic"></i> Project 1
+<!-- PROJECT 1 -->
+<!-- Side panel -->
 
-![An informative caption](images/hunter.png){width=100%}
+:::{.column-page}
+:::{.paper-left-column}
+<center>
+## <i class="fa-solid fa-skull"></i> Paleo Networks
+:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
+<!-- add image url -->
+![](images/Raptor.jpg)
+:::
+</center>
+:::
+<!-- Main panel description -->
+::: {.paper-main-column}
+blah blah blah
+:::
+:::
 
-blah blah blah...
+<br>
 
 ## <i class="fa-brands fa-rebel"></i> Project 2
 
