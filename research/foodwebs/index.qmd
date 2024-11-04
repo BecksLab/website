@@ -7,10 +7,6 @@ metadata-title: ""
 draft: false
 editor: source
 lightbox: auto
-listing:
-  - id: gallery
-    template: ../../assets/ejs/people_foodweb.ejs
-    contents: ../../people/people.yml
 ---
 
 blah blah blah...
@@ -71,10 +67,3 @@ Maitner, B. S., Halbritter, A. H., Telford, R. J., **Strydom, T.**, Chacón‑La
 [{{< fa brands github >}} Repo](https://github.com/EnquistLab/trait_bootstrap_ms)
 
 <br>
-
-## {{< fa users >}} Associated Researchers
-
-> I don't know how to feel about this...
-
-::: {#gallery}
-:::
