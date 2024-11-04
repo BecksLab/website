@@ -24,6 +24,7 @@ format:
   html:
     theme: [cosmo, mystyles.scss]
     toc: true
+    page-layout: full
     format:
     css: assets/css/styles.css
 

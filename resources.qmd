@@ -27,7 +27,6 @@ listing:
             url: http://r4all.org
 
 #title-block-banner: "#EE6A24"
-#page-layout: full
 ---
 
 Look its a link to some resources related to our research.
