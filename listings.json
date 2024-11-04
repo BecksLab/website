@@ -4,13 +4,8 @@
     "items": []
   },
   {
-    "listing": "/research/foodwebs/index.html",
-    "items": []
-  },
-  {
     "listing": "/research.html",
     "items": [
-      "/research/software/index.html",
       "/research/populations/index.html",
       "/research/foodwebs/index.html"
     ]
