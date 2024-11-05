@@ -5,7 +5,15 @@ toc: false
 
 ## What we care about
 
+-   stance on preprints?
+
+-   commitment to OS
+
+-   stance on doing responsible (do no harm) science
+
 blah blah blah
+
+### Code of conduct
 
 ## Why we care
 
