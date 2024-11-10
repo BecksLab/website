@@ -47,6 +47,12 @@
               <i class="bi bi-orcid"></i>
               <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
             </a>
+          <%} %>
+            <% if (tile.googlescholar) { %>
+              <a href="https://scholar.google.com/citations?user=<%= tile.googlescholar %>&hl=en" class="about-link" style="text-decoration:none" rel="" target="">
+                <i class="bi bi-google-scholar"></i>
+                <span><i class="fa-brands fa-google-scholar" aria-label="googlescholar"></i></span>
+              </a>            
           <%} %>   
         </div>
       </div>
