@@ -9,13 +9,17 @@
       orcid: 0000-0002-4797-9143
       twitter: beckerhopper
     - name: "Alain Danet"
-      description: "Stability"
+      description: "Stability of complex food webs"
       image: people/mugshots/adanet.jpg
       github: alaindanet
+      orcid: 0000-0002-1592-9483
+      www: https://alaindanet.github.io/
+      googlescholar: iijI6msAAAAJ
+      email: a.h.danet@sheffield.ac.uk
     - name: "Tanya Strydom"
       description: "🦖 DINOSAUR food webs"
       image: people/mugshots/tstrydom.png
-      email: mailto:tanya.strydom@sheffield.ac.uk
+      email: tanya.strydom@sheffield.ac.uk
       github: TanyaS08
       bluesky: tanyadoesscience.bsky.social
       orcid: 0000-0001-6067-1349
@@ -60,9 +64,15 @@
 - category: Fellows
   tiles:
     - name: "Gidey Yirga"
-      description: "Human Wildlife conflict"
+      description: "Human-wildlife interactions"
       image: people/mugshots/gyirga.jpg
-    - name: "Thomas F. Johnson"
-      description: "BigData ecology"
+      googlescholar: 7vid7ScAAAAJ
+      email: g.abay@sheffield.ac.uk
+    - name: "Thomas F. Johnson (Tom)"
+      description: "Big Data, Modelling, Biodiversity"
       image: people/mugshots/tjohnson.jpg
       github: GitTFJ
+      orcid: 0000-0002-6363-1825
+      www: https://thomasfjohnson.webnode.co.uk/
+      googlescholar: M9TZihsAAAAJ
+      emial: t.f.johnson@sheffield.ac.uk
