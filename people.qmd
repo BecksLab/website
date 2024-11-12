@@ -6,16 +6,10 @@ listing:
   - id: gallery
     template: assets/ejs/people.ejs
     contents: people/people.yml
-    sort: name asc
+    sort: name
 toc-location: right
 toc-title: People groups
 ---
-
-We could split the people by lab group? (It doesn't want to make a pretty toc 😐)
-
--   [BeckermanLab](#beckermanlab)
--   [ChildsLab](#childslab)
--   [Associated fellows](#fellows)
 
 ::: {#gallery}
 :::

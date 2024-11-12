@@ -1,78 +1,66 @@
 
-- category: BeckermanLab
-  tiles:
-    - name: "Andrew P. Beckerman"
-      description: "Ecologist (sometimes)"
-      image: people/mugshots/abeckerman.jpg
-      email: andrew.p.beckerman@sheffield.ac.uk
-      github: andbeck
-      orcid: 0000-0002-4797-9143
-      twitter: beckerhopper
-    - name: "Alain Danet"
-      description: "Stability of complex food webs"
-      image: people/mugshots/adanet.jpg
-      github: alaindanet
-      orcid: 0000-0002-1592-9483
-      www: https://alaindanet.github.io/
-      googlescholar: iijI6msAAAAJ
-      email: a.h.danet@sheffield.ac.uk
-    - name: "Tanya Strydom"
-      description: "🦖 DINOSAUR food webs"
-      image: people/mugshots/tstrydom.png
-      email: tanya.strydom@sheffield.ac.uk
-      github: TanyaS08
-      bluesky: tanyadoesscience.bsky.social
-      orcid: 0000-0001-6067-1349
-      www: https://tanyadoesscience.com/
-    - name: "Alina Smith"
-      description: ""
-      image: people/mugshots/asmith.jpg
-    - name: "Hana Mayall"
-      description: ""
-      image: people/mugshots/hmayall.jpg
-      github: hanamayall
-    - name: "Penelope Blyth"
-      description: ""
-      image: people/mugshots/pblyth.jpg
-      github: BlythPenelope
-      orcid: 0000-0003-3071-9668
-    - name: "Zuzanna Zagrodka"
-      description: ""
-      image: people/mugshots/zzagrodka.jpg
-
-- category: ChildsLab
-  tiles:
-    - name: "Dylan Childs"
-      role: "Groupie"
-      description: Population Dynamics
-      image: people/mugshots/dchilds.jpg
-      github: dzchilds
-    - name: "Thomas Malpas"
-      role: "Co-supervision"
-      description: Birds (and some tipping points)
-      image: people/mugshots/tmalpas.jpg
-      github: Thomalpas
-    - name: "Matthew Clements"
-      role: "Groupie"
-      description: Population Dynamics
-      image: people/mugshots/mclements.jpg
-    - name: "Laura Landon Blake"
-      role: "Groupie"
-      image: people/mugshots/llandonblake.jpg
-      github: LalaBinks
-
-- category: Fellows
-  tiles:
-    - name: "Gidey Yirga"
-      description: "Human-wildlife interactions"
-      image: people/mugshots/gyirga.jpg
-      googlescholar: 7vid7ScAAAAJ
-      email: g.abay@sheffield.ac.uk
-    - name: "Thomas F. Johnson (Tom)"
-      description: "Big Data, Modelling, Biodiversity"
-      image: people/mugshots/tjohnson.jpg
-      github: GitTFJ
-      orcid: 0000-0002-6363-1825
-      www: https://thomasfjohnson.webnode.co.uk/
-      googlescholar: M9TZihsAAAAJ
-      email: t.f.johnson@sheffield.ac.uk
+- name: "Andrew P. Beckerman"
+  description: "Ecologist (sometimes)"
+  image: people/mugshots/abeckerman.jpg
+  email: andrew.p.beckerman@sheffield.ac.uk
+  github: andbeck
+  orcid: 0000-0002-4797-9143
+  twitter: beckerhopper
+- name: "Alain Danet"
+  description: "Stability of complex food webs"
+  image: people/mugshots/adanet.jpg
+  github: alaindanet
+  orcid: 0000-0002-1592-9483
+  www: https://alaindanet.github.io/
+  googlescholar: iijI6msAAAAJ
+  email: a.h.danet@sheffield.ac.uk
+- name: "Tanya Strydom"
+  description: "🦖 DINOSAUR food webs"
+  image: people/mugshots/tstrydom.png
+  email: tanya.strydom@sheffield.ac.uk
+  github: TanyaS08
+  bluesky: tanyadoesscience.bsky.social
+  orcid: 0000-0001-6067-1349
+  www: https://tanyadoesscience.com/
+- name: "Alina Smith"
+  description: ""
+  image: people/mugshots/asmith.jpg
+- name: "Hana Mayall"
+  description: ""
+  image: people/mugshots/hmayall.jpg
+  github: hanamayall
+- name: "Penelope Blyth"
+  description: ""
+  image: people/mugshots/pblyth.jpg
+  github: BlythPenelope
+  orcid: 0000-0003-3071-9668
+- name: "Zuzanna Zagrodka"
+  description: ""
+  image: people/mugshots/zzagrodka.jpg
+- name: "Dylan Childs"
+  description: Population Dynamics
+  image: people/mugshots/dchilds.jpg
+  github: dzchilds
+- name: "Thomas Malpas"
+  description: Birds (and some tipping points)
+  image: people/mugshots/tmalpas.jpg
+  github: Thomalpas
+- name: "Matthew Clements"
+  description: Population Dynamics
+  image: people/mugshots/mclements.jpg
+- name: "Laura Landon Blake"
+  image: people/mugshots/llandonblake.jpg
+  github: LalaBinks
+- name: "Gidey Yirga"
+  description: "Human-wildlife interactions"
+  image: people/mugshots/gyirga.jpg
+  googlescholar: 7vid7ScAAAAJ
+  email: g.abay@sheffield.ac.uk
+- name: "Thomas F. Johnson (Tom)"
+  description: "Big Data, Modelling, Biodiversity"
+  image: people/mugshots/tjohnson.jpg
+  github: GitTFJ
+  orcid: 0000-0002-6363-1825
+  www: https://thomasfjohnson.webnode.co.uk/
+  googlescholar: M9TZihsAAAAJ
+  email: t.f.johnson@sheffield.ac.u

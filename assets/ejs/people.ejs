@@ -1,24 +1,16 @@
 
 ```{=html}
-
-<% for (const item of items) { %>
-
-  <h2><%- item.category %></h2>
   
   <div class="list grid" style="column-gap: 10px;">
   
-  <% for (const tile of item.tiles) { %>
+  <% for (const tile of items) { %>
     <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" <%= metadataAttrs(tile) %>>
 
       <img src="<%- tile.image %>" alt="<%- tile.name %>" class="card-img-top"/>
 
       <div style="text-align: center">
-        <b><%- tile.name %></b>
+        <b"><%- tile.name %></b>
         <br>
-        <% if (tile.role) { %>
-          <small><%- tile.role %></small>
-          <br>
-        <%} %>
         <% if (tile.description) { %>
           <small><%- tile.description %></small>
           <br>
@@ -62,6 +54,4 @@
   
   </div>
   
-  <% } %>
-
 ```
