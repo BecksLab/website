@@ -65,9 +65,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-category','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-name','listing-description','listing-image','listing-email','listing-github','listing-orcid','listing-twitter','listing-www','listing-googlescholar','listing-bluesky',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-category","listing-tiles"],
+      searchColumns: ["listing-name","listing-description","listing-image","listing-email","listing-github","listing-orcid","listing-twitter","listing-www","listing-googlescholar","listing-bluesky"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -202,62 +202,18 @@ window.Quarto = {
 </header>
 
 
-<p>We could split the people by lab group? (It doesn’t want to make a pretty toc 😐)</p>
-<ul>
-<li><a href="#beckermanlab">BeckermanLab</a></li>
-<li><a href="#childslab">ChildsLab</a></li>
-<li><a href="#fellows">Associated fellows</a></li>
-</ul>
 <div id="listing-gallery" class="quarto-listing quarto-listing-container-custom">
-
-  <h2 class="anchored">BeckermanLab</h2>
   
   <div class="list grid" style="column-gap: 10px;">
   
   
     <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="0">
 
-      <img src="people/mugshots/abeckerman.jpg" alt="Andrew P. Beckerman" class="card-img-top">
-
-      <div style="text-align: center">
-        <b>Andrew P. Beckerman</b>
-        <br>
-        
-        
-          <small>Ecologist (sometimes)</small>
-          <br>
-        
-        <div class="socialWrap">
-          
-            <a href="mailto:andrew.p.beckerman@sheffield.ac.uk" class="bi bi-envelope-fill"></a>
-          
-          
-            <a href="https://github.com/andbeck" class="bi bi-github"></a>
-          
-            
-          
-            <a href="https://x.com/beckerhopper" class="bi bi-twitter"></a>
-              
-                 
-          
-            <a href="https://orcid.org/0000-0002-4797-9143" class="about-link" style="text-decoration:none" rel="" target="">
-              <i class="bi bi-orcid"></i>
-              <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
-            </a>
-          
-               
-        </div>
-      </div>
-    </div>
-  
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
-
       <img src="people/mugshots/adanet.jpg" alt="Alain Danet" class="card-img-top">
 
       <div style="text-align: center">
-        <b>Alain Danet</b>
+        <b">Alain Danet
         <br>
-        
         
           <small>Stability of complex food webs</small>
           <br>
@@ -287,17 +243,219 @@ window.Quarto = {
               </a>            
              
         </div>
-      </div>
+      </b"></div>
+    </div>
+  
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
+
+      <img src="people/mugshots/asmith.jpg" alt="Alina Smith" class="card-img-top">
+
+      <div style="text-align: center">
+        <b">Alina Smith
+        <br>
+        
+        <div class="socialWrap">
+          
+          
+            
+              
+                 
+          
+               
+        </div>
+      </b"></div>
     </div>
   
     <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
 
+      <img src="people/mugshots/abeckerman.jpg" alt="Andrew P. Beckerman" class="card-img-top">
+
+      <div style="text-align: center">
+        <b">Andrew P. Beckerman
+        <br>
+        
+          <small>Ecologist (sometimes)</small>
+          <br>
+        
+        <div class="socialWrap">
+          
+            <a href="mailto:andrew.p.beckerman@sheffield.ac.uk" class="bi bi-envelope-fill"></a>
+          
+          
+            <a href="https://github.com/andbeck" class="bi bi-github"></a>
+          
+            
+          
+            <a href="https://x.com/beckerhopper" class="bi bi-twitter"></a>
+              
+                 
+          
+            <a href="https://orcid.org/0000-0002-4797-9143" class="about-link" style="text-decoration:none" rel="" target="">
+              <i class="bi bi-orcid"></i>
+              <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
+            </a>
+          
+               
+        </div>
+      </b"></div>
+    </div>
+  
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="3">
+
+      <img src="people/mugshots/dchilds.jpg" alt="Dylan Childs" class="card-img-top">
+
+      <div style="text-align: center">
+        <b">Dylan Childs
+        <br>
+        
+          <small>Population Dynamics</small>
+          <br>
+        
+        <div class="socialWrap">
+          
+          
+            <a href="https://github.com/dzchilds" class="bi bi-github"></a>
+          
+            
+              
+                 
+          
+               
+        </div>
+      </b"></div>
+    </div>
+  
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="4">
+
+      <img src="people/mugshots/gyirga.jpg" alt="Gidey Yirga" class="card-img-top">
+
+      <div style="text-align: center">
+        <b">Gidey Yirga
+        <br>
+        
+          <small>Human-wildlife interactions</small>
+          <br>
+        
+        <div class="socialWrap">
+          
+            <a href="mailto:g.abay@sheffield.ac.uk" class="bi bi-envelope-fill"></a>
+          
+          
+            
+              
+                 
+          
+            
+              <a href="https://scholar.google.com/citations?user=7vid7ScAAAAJ&amp;hl=en" class="about-link" style="text-decoration:none" rel="" target="">
+                <i class="bi bi-google-scholar"></i>
+                <span><i class="fa-brands fa-google-scholar" aria-label="googlescholar"></i></span>
+              </a>            
+             
+        </div>
+      </b"></div>
+    </div>
+  
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="5">
+
+      <img src="people/mugshots/hmayall.jpg" alt="Hana Mayall" class="card-img-top">
+
+      <div style="text-align: center">
+        <b">Hana Mayall
+        <br>
+        
+        <div class="socialWrap">
+          
+          
+            <a href="https://github.com/hanamayall" class="bi bi-github"></a>
+          
+            
+              
+                 
+          
+               
+        </div>
+      </b"></div>
+    </div>
+  
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
+
+      <img src="people/mugshots/llandonblake.jpg" alt="Laura Landon Blake" class="card-img-top">
+
+      <div style="text-align: center">
+        <b">Laura Landon Blake
+        <br>
+        
+        <div class="socialWrap">
+          
+          
+            <a href="https://github.com/LalaBinks" class="bi bi-github"></a>
+          
+            
+              
+                 
+          
+               
+        </div>
+      </b"></div>
+    </div>
+  
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="7">
+
+      <img src="people/mugshots/mclements.jpg" alt="Matthew Clements" class="card-img-top">
+
+      <div style="text-align: center">
+        <b">Matthew Clements
+        <br>
+        
+          <small>Population Dynamics</small>
+          <br>
+        
+        <div class="socialWrap">
+          
+          
+            
+              
+                 
+          
+               
+        </div>
+      </b"></div>
+    </div>
+  
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="8">
+
+      <img src="people/mugshots/pblyth.jpg" alt="Penelope Blyth" class="card-img-top">
+
+      <div style="text-align: center">
+        <b">Penelope Blyth
+        <br>
+        
+        <div class="socialWrap">
+          
+          
+            <a href="https://github.com/BlythPenelope" class="bi bi-github"></a>
+          
+            
+              
+                 
+          
+            <a href="https://orcid.org/0000-0003-3071-9668" class="about-link" style="text-decoration:none" rel="" target="">
+              <i class="bi bi-orcid"></i>
+              <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
+            </a>
+          
+               
+        </div>
+      </b"></div>
+    </div>
+  
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="9">
+
       <img src="people/mugshots/tstrydom.png" alt="Tanya Strydom" class="card-img-top">
 
       <div style="text-align: center">
-        <b>Tanya Strydom</b>
+        <b">Tanya Strydom
         <br>
-        
         
           <small>🦖 DINOSAUR food webs</small>
           <br>
@@ -327,281 +485,23 @@ window.Quarto = {
           
                
         </div>
-      </div>
-    </div>
-  
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="3">
-
-      <img src="people/mugshots/asmith.jpg" alt="Alina Smith" class="card-img-top">
-
-      <div style="text-align: center">
-        <b>Alina Smith</b>
-        <br>
-        
-        
-        <div class="socialWrap">
-          
-          
-            
-              
-                 
-          
-               
-        </div>
-      </div>
-    </div>
-  
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="4">
-
-      <img src="people/mugshots/hmayall.jpg" alt="Hana Mayall" class="card-img-top">
-
-      <div style="text-align: center">
-        <b>Hana Mayall</b>
-        <br>
-        
-        
-        <div class="socialWrap">
-          
-          
-            <a href="https://github.com/hanamayall" class="bi bi-github"></a>
-          
-            
-              
-                 
-          
-               
-        </div>
-      </div>
-    </div>
-  
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="5">
-
-      <img src="people/mugshots/pblyth.jpg" alt="Penelope Blyth" class="card-img-top">
-
-      <div style="text-align: center">
-        <b>Penelope Blyth</b>
-        <br>
-        
-        
-        <div class="socialWrap">
-          
-          
-            <a href="https://github.com/BlythPenelope" class="bi bi-github"></a>
-          
-            
-              
-                 
-          
-            <a href="https://orcid.org/0000-0003-3071-9668" class="about-link" style="text-decoration:none" rel="" target="">
-              <i class="bi bi-orcid"></i>
-              <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
-            </a>
-          
-               
-        </div>
-      </div>
-    </div>
-  
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
-
-      <img src="people/mugshots/zzagrodka.jpg" alt="Zuzanna Zagrodka" class="card-img-top">
-
-      <div style="text-align: center">
-        <b>Zuzanna Zagrodka</b>
-        <br>
-        
-        
-        <div class="socialWrap">
-          
-          
-            
-              
-                 
-          
-               
-        </div>
-      </div>
-    </div>
-  
-
-  
-  </div>
-  
-  
-
-  <h2 class="anchored">ChildsLab</h2>
-  
-  <div class="list grid" style="column-gap: 10px;">
-  
-  
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="7">
-
-      <img src="people/mugshots/dchilds.jpg" alt="Dylan Childs" class="card-img-top">
-
-      <div style="text-align: center">
-        <b>Dylan Childs</b>
-        <br>
-        
-          <small>Groupie</small>
-          <br>
-        
-        
-          <small>Population Dynamics</small>
-          <br>
-        
-        <div class="socialWrap">
-          
-          
-            <a href="https://github.com/dzchilds" class="bi bi-github"></a>
-          
-            
-              
-                 
-          
-               
-        </div>
-      </div>
-    </div>
-  
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="8">
-
-      <img src="people/mugshots/tmalpas.jpg" alt="Thomas Malpas" class="card-img-top">
-
-      <div style="text-align: center">
-        <b>Thomas Malpas</b>
-        <br>
-        
-          <small>Co-supervision</small>
-          <br>
-        
-        
-          <small>Birds (and some tipping points)</small>
-          <br>
-        
-        <div class="socialWrap">
-          
-          
-            <a href="https://github.com/Thomalpas" class="bi bi-github"></a>
-          
-            
-              
-                 
-          
-               
-        </div>
-      </div>
-    </div>
-  
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="9">
-
-      <img src="people/mugshots/mclements.jpg" alt="Matthew Clements" class="card-img-top">
-
-      <div style="text-align: center">
-        <b>Matthew Clements</b>
-        <br>
-        
-          <small>Groupie</small>
-          <br>
-        
-        
-          <small>Population Dynamics</small>
-          <br>
-        
-        <div class="socialWrap">
-          
-          
-            
-              
-                 
-          
-               
-        </div>
-      </div>
+      </b"></div>
     </div>
   
     <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="10">
 
-      <img src="people/mugshots/llandonblake.jpg" alt="Laura Landon Blake" class="card-img-top">
-
-      <div style="text-align: center">
-        <b>Laura Landon Blake</b>
-        <br>
-        
-          <small>Groupie</small>
-          <br>
-        
-        
-        <div class="socialWrap">
-          
-          
-            <a href="https://github.com/LalaBinks" class="bi bi-github"></a>
-          
-            
-              
-                 
-          
-               
-        </div>
-      </div>
-    </div>
-  
-
-  
-  </div>
-  
-  
-
-  <h2 class="anchored">Fellows</h2>
-  
-  <div class="list grid" style="column-gap: 10px;">
-  
-  
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="11">
-
-      <img src="people/mugshots/gyirga.jpg" alt="Gidey Yirga" class="card-img-top">
-
-      <div style="text-align: center">
-        <b>Gidey Yirga</b>
-        <br>
-        
-        
-          <small>Human-wildlife interactions</small>
-          <br>
-        
-        <div class="socialWrap">
-          
-            <a href="mailto:g.abay@sheffield.ac.uk" class="bi bi-envelope-fill"></a>
-          
-          
-            
-              
-                 
-          
-            
-              <a href="https://scholar.google.com/citations?user=7vid7ScAAAAJ&amp;hl=en" class="about-link" style="text-decoration:none" rel="" target="">
-                <i class="bi bi-google-scholar"></i>
-                <span><i class="fa-brands fa-google-scholar" aria-label="googlescholar"></i></span>
-              </a>            
-             
-        </div>
-      </div>
-    </div>
-  
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="12">
-
       <img src="people/mugshots/tjohnson.jpg" alt="Thomas F. Johnson (Tom)" class="card-img-top">
 
       <div style="text-align: center">
-        <b>Thomas F. Johnson (Tom)</b>
+        <b">Thomas F. Johnson (Tom)
         <br>
-        
         
           <small>Big Data, Modelling, Biodiversity</small>
           <br>
         
         <div class="socialWrap">
           
-            <a href="mailto:t.f.johnson@sheffield.ac.uk" class="bi bi-envelope-fill"></a>
+            <a href="mailto:t.f.johnson@sheffield.ac.u" class="bi bi-envelope-fill"></a>
           
           
             <a href="https://github.com/GitTFJ" class="bi bi-github"></a>
@@ -624,15 +524,58 @@ window.Quarto = {
               </a>            
              
         </div>
-      </div>
+      </b"></div>
+    </div>
+  
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="11">
+
+      <img src="people/mugshots/tmalpas.jpg" alt="Thomas Malpas" class="card-img-top">
+
+      <div style="text-align: center">
+        <b">Thomas Malpas
+        <br>
+        
+          <small>Birds (and some tipping points)</small>
+          <br>
+        
+        <div class="socialWrap">
+          
+          
+            <a href="https://github.com/Thomalpas" class="bi bi-github"></a>
+          
+            
+              
+                 
+          
+               
+        </div>
+      </b"></div>
+    </div>
+  
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="12">
+
+      <img src="people/mugshots/zzagrodka.jpg" alt="Zuzanna Zagrodka" class="card-img-top">
+
+      <div style="text-align: center">
+        <b">Zuzanna Zagrodka
+        <br>
+        
+        <div class="socialWrap">
+          
+          
+            
+              
+                 
+          
+               
+        </div>
+      </b"></div>
     </div>
   
 
   
   </div>
   
-  
-
 <div class="listing-no-matching d-none">
 No matching items
 </div>
