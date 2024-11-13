@@ -1,0 +1,67 @@
+```{=html}
+
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list grid quarto-listing-cols-4"> 
+
+    <% for (const item of items) { %> 
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          <img src="<%- item.image %>" alt="<%- item.name %>" class="card-img-top"/>
+
+          <div class="card-body post-contents">
+            
+            <div style="text-align: center;">
+            <div class="listing-box-title">
+              <%= item.name %><br> 
+            </div>
+                
+            <div class="socialWrap">
+              <% if (item.github) { %>
+                <a href="https://github.com/<%= item.github %>" class="bi bi-github"></a>
+              <%} %>
+              <% if (item.www) { %>
+                <a href="<%= item.www %>" class="bi bi-house-fill"></a>
+              <%} %>  
+              <% if (item.twitter) { %>
+                <a href="https://x.com/<%= item.twitter %>" class="bi bi-twitter"></a>
+              <%} %>    
+              <% if (item.bluesky) { %>
+                <a href="https://bsky.app/profile/<%= item.bluesky %>" class="about-link" style="text-decoration:none" rel="" target="">
+                  <i class="bi bi-bluesky"></i>
+                    <span><i class="fa-brands fa-bluesky"></i></span>
+                </a>
+              <%} %>       
+              <% if (item.orcid) { %>
+                <a href="https://orcid.org/<%= item.orcid %>" class="about-link" style="text-decoration:none" rel="" target="">
+                  <i class="bi bi-orcid"></i>
+                  <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
+                </a>
+              <%} %>
+                <% if (item.googlescholar) { %>
+                  <a href="https://scholar.google.com/citations?user=<%= item.googlescholar %>&hl=en" class="about-link" style="text-decoration:none" rel="" target="">
+                    <i class="bi bi-google-scholar"></i>
+                    <span><i class="fa-brands fa-google-scholar" aria-label="googlescholar"></i></span>
+                  </a>            
+              <%} %>   
+            </div>
+                  
+          </div>
+            
+            
+          </div>  
+        </div>  
+      
+    </div>
+  
+    <% } %>
+  
+</div>
+</div>
+
+```
