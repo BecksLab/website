@@ -3,13 +3,16 @@ title: "Meet the Team"
 description: |
   Stuff (if we want)
 listing:
-  - id: gallery
-    template: assets/ejs/people.ejs
-    contents: people/people.yml
+  - id: current_members
+    template: assets/ejs/people_current.ejs
+    contents: people/people_current.yml
     sort: name
 toc-location: right
-toc-title: People groups
 ---
 
-::: {#gallery}
+## Current members
+
+::: {#current_members}
 :::
+
+## Past members
