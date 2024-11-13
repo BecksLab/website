@@ -58,7 +58,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-gallery .list');
+    const listingTargetEl = window.document.querySelector('#listing-current_members .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -71,7 +71,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-gallery'] = new List('listing-gallery', options);
+    window['quarto-listings']['listing-current_members'] = new List('listing-current_members', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-past_members .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-description','listing-image','listing-email','listing-github','listing-orcid','listing-twitter','listing-www','listing-googlescholar','listing-bluesky',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-description","listing-image","listing-email","listing-github","listing-orcid","listing-twitter","listing-www","listing-googlescholar","listing-bluesky"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-past_members'] = new List('listing-past_members', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -172,11 +200,18 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#current-members" id="toc-current-members" class="nav-link active" data-scroll-target="#current-members">Current members</a></li>
+  <li><a href="#past-members" id="toc-past-members" class="nav-link" data-scroll-target="#past-members">Past members</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -190,7 +225,7 @@ window.Quarto = {
 </div>
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -202,7 +237,9 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-gallery" class="quarto-listing quarto-listing-container-custom">
+<section id="current-members" class="level2">
+<h2 class="anchored" data-anchor-id="current-members">Current members</h2>
+<div id="listing-current_members" class="quarto-listing quarto-listing-container-custom">
   
   <div class="list grid" style="column-gap: 10px;">
   
@@ -248,6 +285,26 @@ window.Quarto = {
   
     <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
 
+      <img src="" alt="Alex Powell" class="card-img-top">
+
+      <div style="text-align: center">
+        <b">Alex Powell
+        <br>
+        
+        <div class="socialWrap">
+          
+          
+            
+              
+                 
+          
+               
+        </div>
+      </b"></div>
+    </div>
+  
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
+
       <img src="people/mugshots/asmith.jpg" alt="Alina Smith" class="card-img-top">
 
       <div style="text-align: center">
@@ -266,7 +323,7 @@ window.Quarto = {
       </b"></div>
     </div>
   
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="3">
 
       <img src="people/mugshots/abeckerman.jpg" alt="Andrew P. Beckerman" class="card-img-top">
 
@@ -300,7 +357,7 @@ window.Quarto = {
       </b"></div>
     </div>
   
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="3">
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="4">
 
       <img src="people/mugshots/dchilds.jpg" alt="Dylan Childs" class="card-img-top">
 
@@ -325,7 +382,7 @@ window.Quarto = {
       </b"></div>
     </div>
   
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="4">
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="5">
 
       <img src="people/mugshots/gyirga.jpg" alt="Gidey Yirga" class="card-img-top">
 
@@ -355,7 +412,7 @@ window.Quarto = {
       </b"></div>
     </div>
   
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="5">
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
 
       <img src="people/mugshots/hmayall.jpg" alt="Hana Mayall" class="card-img-top">
 
@@ -377,7 +434,7 @@ window.Quarto = {
       </b"></div>
     </div>
   
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="7">
 
       <img src="people/mugshots/llandonblake.jpg" alt="Laura Landon Blake" class="card-img-top">
 
@@ -399,7 +456,7 @@ window.Quarto = {
       </b"></div>
     </div>
   
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="7">
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="8">
 
       <img src="people/mugshots/mclements.jpg" alt="Matthew Clements" class="card-img-top">
 
@@ -422,7 +479,7 @@ window.Quarto = {
       </b"></div>
     </div>
   
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="8">
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="9">
 
       <img src="people/mugshots/pblyth.jpg" alt="Penelope Blyth" class="card-img-top">
 
@@ -449,7 +506,7 @@ window.Quarto = {
       </b"></div>
     </div>
   
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="9">
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="10">
 
       <img src="people/mugshots/tstrydom.png" alt="Tanya Strydom" class="card-img-top">
 
@@ -488,7 +545,7 @@ window.Quarto = {
       </b"></div>
     </div>
   
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="10">
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="11">
 
       <img src="people/mugshots/tjohnson.jpg" alt="Thomas F. Johnson (Tom)" class="card-img-top">
 
@@ -527,7 +584,7 @@ window.Quarto = {
       </b"></div>
     </div>
   
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="11">
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="12">
 
       <img src="people/mugshots/tmalpas.jpg" alt="Thomas Malpas" class="card-img-top">
 
@@ -552,7 +609,7 @@ window.Quarto = {
       </b"></div>
     </div>
   
-    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="12">
+    <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="13">
 
       <img src="people/mugshots/zzagrodka.jpg" alt="Zuzanna Zagrodka" class="card-img-top">
 
@@ -580,9 +637,201 @@ window.Quarto = {
 No matching items
 </div>
 </div>
+</section>
+<section id="past-members" class="level2">
+<h2 class="anchored" data-anchor-id="past-members">Past members</h2>
+<div id="listing-past_members" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+  
+  <div class="list grid quarto-listing-cols-4"> 
+
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          <img src="people/mugshots/adanet.jpg" alt="Alain Danet" class="card-img-top">
+
+          <div class="card-body post-contents">
+            
+            <div style="text-align: center;">
+            <div class="listing-box-title">
+              Alain Danet<br> 
+            </div>
+                
+            <div class="socialWrap">
+              
+                <a href="https://github.com/alaindanet" class="bi bi-github"></a>
+              
+              
+                <a href="https://alaindanet.github.io/" class="bi bi-house-fill"></a>
+                
+                  
+                     
+              
+                <a href="https://orcid.org/0000-0002-1592-9483" class="about-link" style="text-decoration:none" rel="" target="">
+                  <i class="bi bi-orcid"></i>
+                  <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
+                </a>
+              
+                
+                  <a href="https://scholar.google.com/citations?user=iijI6msAAAAJ&amp;hl=en" class="about-link" style="text-decoration:none" rel="" target="">
+                    <i class="bi bi-google-scholar"></i>
+                    <span><i class="fa-brands fa-google-scholar" aria-label="googlescholar"></i></span>
+                  </a>            
+                 
+            </div>
+                  
+          </div>
+            
+            
+          </div>  
+        </div>  
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          <img src="people/mugshots/asmith.jpg" alt="Alina Smith" class="card-img-top">
+
+          <div class="card-body post-contents">
+            
+            <div style="text-align: center;">
+            <div class="listing-box-title">
+              Alina Smith<br> 
+            </div>
+                
+            <div class="socialWrap">
+              
+                
+                  
+                     
+              
+                   
+            </div>
+                  
+          </div>
+            
+            
+          </div>  
+        </div>  
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          <img src="people/mugshots/abeckerman.jpg" alt="Andrew P. Beckerman" class="card-img-top">
+
+          <div class="card-body post-contents">
+            
+            <div style="text-align: center;">
+            <div class="listing-box-title">
+              Andrew P. Beckerman<br> 
+            </div>
+                
+            <div class="socialWrap">
+              
+                <a href="https://github.com/andbeck" class="bi bi-github"></a>
+              
+                
+              
+                <a href="https://x.com/beckerhopper" class="bi bi-twitter"></a>
+                  
+                     
+              
+                <a href="https://orcid.org/0000-0002-4797-9143" class="about-link" style="text-decoration:none" rel="" target="">
+                  <i class="bi bi-orcid"></i>
+                  <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
+                </a>
+              
+                   
+            </div>
+                  
+          </div>
+            
+            
+          </div>  
+        </div>  
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          <img src="people/mugshots/tstrydom.png" alt="Tanya Strydom" class="card-img-top">
+
+          <div class="card-body post-contents">
+            
+            <div style="text-align: center;">
+            <div class="listing-box-title">
+              Tanya Strydom<br> 
+            </div>
+                
+            <div class="socialWrap">
+              
+                <a href="https://github.com/TanyaS08" class="bi bi-github"></a>
+              
+              
+                <a href="https://tanyadoesscience.com/" class="bi bi-house-fill"></a>
+                
+                  
+              
+                <a href="https://bsky.app/profile/tanyadoesscience.bsky.social" class="about-link" style="text-decoration:none" rel="" target="">
+                  <i class="bi bi-bluesky"></i>
+                    <span><i class="fa-brands fa-bluesky"></i></span>
+                </a>
+                     
+              
+                <a href="https://orcid.org/0000-0001-6067-1349" class="about-link" style="text-decoration:none" rel="" target="">
+                  <i class="bi bi-orcid"></i>
+                  <span><i class="fa-brands fa-orcid" aria-label="orcid"></i></span>
+                </a>
+              
+                   
+            </div>
+                  
+          </div>
+            
+            
+          </div>  
+        </div>  
+      
+    </div>
+  
+    
+  
+</div>
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
