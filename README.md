@@ -13,7 +13,7 @@ For research group members that wish to either add/update content or report and 
 
 -   The 'skeleton' of the website is specified in `_quarto.yml`
 -   All pages should be in the root of the directory and informatively named
--   Listings should be in their own folder and have the same name as their hosting page
+-   [Listings](https://quarto.org/docs/websites/website-listings.html) should be in their own folder and have the same name as their hosting page
 -   Additional code templates should be placed in `/assets`
 
 
