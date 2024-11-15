@@ -26,12 +26,15 @@
   description: ""
   image: people/mugshots/asmith.jpg
 - name: "Hana Mayall"
-  description: ""
+  description: "Multiple stressors"
   image: people/mugshots/hmayall.jpg
+  email: hbmayall1@sheffield.ac.uk
   github: hanamayall
+  orcid: 0009-0001-5722-8925
 - name: "Penelope Blyth"
   description: "Code Dependent"
   image: people/mugshots/pblyth.jpg
+  email: pblyth1@sheffield.ac.uk
   github: BlythPenelope
   orcid: 0000-0003-3071-9668
   bluesky: blythpenelope.bsky.social
@@ -65,5 +68,5 @@
   orcid: 0000-0002-6363-1825
   www: https://thomasfjohnson.webnode.co.uk/
   googlescholar: M9TZihsAAAAJ
-  email: t.f.johnson@sheffield.ac.u
+  email: t.f.johnson@sheffield.ac.uk
 - name: "Alex Powell"
