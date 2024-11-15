@@ -1,0 +1,87 @@
+---
+title: "Breaking change"
+image: images/network.png
+description: " "
+include-in-header: hero_image.html
+metadata-title: ""
+draft: false
+editor: source
+
+
+<!-- PROJECT 1 -->
+<!-- Side panel -->
+
+:::{.column-page}
+
+:::{.paper-left-column}
+
+<center>
+:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
+<!-- add image url -->
+<img src="images/network.png" class="rounded"/></img>
+:::
+</center>
+<!-- edit caption
+::: figure-caption
+[*Culex (Culex) sitiens* (Nick Lambert CC BY NC SA 3.0)](https://images.ala.org.au/image/details?imageId=20e67558-6fe7-49cc-964a-aaabca0933cb)
+:::
+ -->
+
+### Publications
+
+blah blah blah...
+
+
+:::
+
+
+<!-- Main panel description -->
+
+::: {.paper-main-column}
+
+## <i class="fa-brands fa-mandalorian"></i> Project 1
+
+blah blah blah
+:::
+
+:::
+
+<br>
+
+<!-- PROJECT 2 -->
+<!-- Side panel -->
+
+:::{.column-page}
+
+:::{.paper-right-column}
+
+<center>
+:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
+<!-- add image url -->
+<img src="images/obiwan.png" class="rounded"/></img>
+:::
+</center>
+<!-- edit caption
+::: figure-caption
+[*Culex (Culex) sitiens* (Nick Lambert CC BY NC SA 3.0)](https://images.ala.org.au/image/details?imageId=20e67558-6fe7-49cc-964a-aaabca0933cb)
+:::
+ -->
+
+### Publications
+
+blah blah
+
+
+:::
+
+
+<!-- Main panel description -->
+
+::: {.paper-main-column}
+
+## <i class="fa-brands fa-jedi-order"></i> Project 2
+
+blah blah blah
+:::
+
+:::
