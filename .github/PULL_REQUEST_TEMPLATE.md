@@ -7,10 +7,11 @@ Explain in a few words what the pull request does.
 Please indicate the relevant option(s)
 
 - [ ] :bug: Bug fix (non-breaking change which fixes an issue)
-- [ ] :sparkles: New tutorial page
+- [ ] :sparkles: New page
 - [ ] :boom: Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] :book: Update to current tutorial page content
+- [ ] :book: Update to current page content
 - [ ] :hammer: Backend change
+- [ ] :pencil2: Update documentation
 
 **Checklist**
 
