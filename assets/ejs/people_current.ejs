@@ -20,6 +20,11 @@
             <div class="listing-box-title">
               <%= item.name %><br> 
             </div>
+
+            <% if (item.description) { %>
+              <small><%- item.description %></small>
+            <%} %>
+            <br>
                 
             <div class="socialWrap">
               <% if (item.github) { %>
