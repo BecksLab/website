@@ -84,6 +84,13 @@
     "text": "Project 2\nblah blah blah"
   },
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "the CESSpit",
+    "section": "",
+    "text": "Blah blah blah about research projects/axes\n\n\n\n\n\n\n\n\n\n\n Population Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Food webs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Open Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "values.html",
     "href": "values.html",
     "title": "Values",
@@ -105,11 +112,39 @@
     "text": "Why we care\nblah blah blah"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "the CESSpit",
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "Welcome!",
     "section": "",
-    "text": "Blah blah blah about research projects/axes\n\n\n\n\n\n\n\n\n\n\n Population Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Food webs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Open Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "report an issue or suggest new content – open an issue on GitHub\nimprove the documentation – suggest changes in the various READMEs if instructions are unclear\n\n\n\n\nHave a look at the current Julia documentation.\n\n\n\nPlease use emojis, this helps visually sorting through the commits (and makes for a fun time). Inspiration taken from sciencegitmojis\n\n\n\n\n\n\n\n\nIf the commit is about…\n…then use\nExample\n\n\n\n\nWork in progress\n:construction:\n:construction: new output structure\n\n\nBug fix\n:bug:\n:bug: mean fails if NA\n\n\nFixing typos\n:pencil2:\n:pencil2: README\n\n\nCode maintenance\n:wrench:\n:wrench: fix variable names\n\n\nNew test\n:clapper:\n:clapper: wget JSON resource\n\n\nPlot figures\n:bar_chart:\n:bar_chart: example boundaries\n\n\nNew data\n:cd:\n:cd: example pollination network\n\n\nNew feature\n:sparkles:\n:sparkles: (insert achievement)\n\n\nDocumentation\n:books:\n:books: lattice function\n\n\nPerformance improvement\n:racehorse:\n:racehorse: parallelizes models by default\n\n\nUpcoming release\n:package:\n:package: v1.0.6\n\n\nUgly but working code\n:dragon:\n:dragon: added lattice function\n\n\nWorking on code that doesn’t work but I want to go home\n:neutral_face:\n:neutral_face: for triangulation\n\n\nI forgot to save everything before committing\n:sandwich:\n:sandwich: what is saving\n\n\nJettisoned something\n:boom:\n:boom: manifest\n\n\n\n\n\n\nThis section describes the general steps to make sure that your contribution is integrated rapidly. Note that the main branch is protected and you will be unable to make any changes directly but rather through pull requests. The general workflow is as follows:\n\nCreate an issue that outlines proposed content or fixes\nFork the repository (see Branches, etc. below)\nCreate an explicitly named branch from main\nCreate a pull request as soon as you make the first commit and link this to the relevant issue\nBe as explicit as possible on your goals\nDo not squash / rebase commits while you work – we will do so when merging\n\n\n\nCreating a pull request before you push any code will signal that you are interested in contributing to the project. Once this is done, push often, and be explicit about what the commits do (see commits, below). This gives the opportunity for feedback during your work, and allow for tweaks in what you are doing.\nA good pull request (in addition to satisfying to all of the criteria below) is:\n\nSingle purpose - it should do one thing, and one thing only\nShort - it should ideally involve less than 250 lines of code\nLimited in scope - it should ideally not span more than a handful of files\nWell tested and well documented\nWritten in a style similar to the rest of the codebase\n\nThis will ensure that your contribution is rapidly reviewed and evaluated.\n\n\n\nWhile you are working on changes you can render the site locally using quarto render and if you want to preview it you can use quarto render.\nThe website itself is deployed through github actions and is the reason that we will use pull requests as a way to not only act as a checkpoint as to what content is added to the website but also as a means to test that any changes that are made to the files will not break the deployment workflow.\nThis is all automated and you do not need to manually activate these deployments however, if they fail you will not be able to merge your pull request and it is at this point that you will need to work out what has caused the build to fail. You can refer to the build logs on Github but it might be easier to run quarto render locally and see what the error messages are from there."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#dont-know-where-to-start",
+    "href": "CONTRIBUTING.html#dont-know-where-to-start",
+    "title": "Welcome!",
+    "section": "",
+    "text": "report an issue or suggest new content – open an issue on GitHub\nimprove the documentation – suggest changes in the various READMEs if instructions are unclear"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#setting-up-your-environment",
+    "href": "CONTRIBUTING.html#setting-up-your-environment",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Have a look at the current Julia documentation."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#emojis",
+    "href": "CONTRIBUTING.html#emojis",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Please use emojis, this helps visually sorting through the commits (and makes for a fun time). Inspiration taken from sciencegitmojis\n\n\n\n\n\n\n\n\nIf the commit is about…\n…then use\nExample\n\n\n\n\nWork in progress\n:construction:\n:construction: new output structure\n\n\nBug fix\n:bug:\n:bug: mean fails if NA\n\n\nFixing typos\n:pencil2:\n:pencil2: README\n\n\nCode maintenance\n:wrench:\n:wrench: fix variable names\n\n\nNew test\n:clapper:\n:clapper: wget JSON resource\n\n\nPlot figures\n:bar_chart:\n:bar_chart: example boundaries\n\n\nNew data\n:cd:\n:cd: example pollination network\n\n\nNew feature\n:sparkles:\n:sparkles: (insert achievement)\n\n\nDocumentation\n:books:\n:books: lattice function\n\n\nPerformance improvement\n:racehorse:\n:racehorse: parallelizes models by default\n\n\nUpcoming release\n:package:\n:package: v1.0.6\n\n\nUgly but working code\n:dragon:\n:dragon: added lattice function\n\n\nWorking on code that doesn’t work but I want to go home\n:neutral_face:\n:neutral_face: for triangulation\n\n\nI forgot to save everything before committing\n:sandwich:\n:sandwich: what is saving\n\n\nJettisoned something\n:boom:\n:boom: manifest"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#workflow",
+    "href": "CONTRIBUTING.html#workflow",
+    "title": "Welcome!",
+    "section": "",
+    "text": "This section describes the general steps to make sure that your contribution is integrated rapidly. Note that the main branch is protected and you will be unable to make any changes directly but rather through pull requests. The general workflow is as follows:\n\nCreate an issue that outlines proposed content or fixes\nFork the repository (see Branches, etc. below)\nCreate an explicitly named branch from main\nCreate a pull request as soon as you make the first commit and link this to the relevant issue\nBe as explicit as possible on your goals\nDo not squash / rebase commits while you work – we will do so when merging\n\n\n\nCreating a pull request before you push any code will signal that you are interested in contributing to the project. Once this is done, push often, and be explicit about what the commits do (see commits, below). This gives the opportunity for feedback during your work, and allow for tweaks in what you are doing.\nA good pull request (in addition to satisfying to all of the criteria below) is:\n\nSingle purpose - it should do one thing, and one thing only\nShort - it should ideally involve less than 250 lines of code\nLimited in scope - it should ideally not span more than a handful of files\nWell tested and well documented\nWritten in a style similar to the rest of the codebase\n\nThis will ensure that your contribution is rapidly reviewed and evaluated.\n\n\n\nWhile you are working on changes you can render the site locally using quarto render and if you want to preview it you can use quarto render.\nThe website itself is deployed through github actions and is the reason that we will use pull requests as a way to not only act as a checkpoint as to what content is added to the website but also as a means to test that any changes that are made to the files will not break the deployment workflow.\nThis is all automated and you do not need to manually activate these deployments however, if they fail you will not be able to merge your pull request and it is at this point that you will need to work out what has caused the build to fail. You can refer to the build logs on Github but it might be easier to run quarto render locally and see what the error messages are from there."
   },
   {
     "objectID": "research/open_sci/index.html",

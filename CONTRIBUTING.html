@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>research – the CESSpit</title>
+<title>contributing – the CESSpit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,8 +25,6 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -54,65 +52,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research'] = new List('listing-research', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -138,7 +78,7 @@ window.Quarto = {
 <span class="menu-text"><i class="fa-solid fa-people-group" aria-label="people-group"></i> People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="./research.html"> 
 <span class="menu-text"><i class="fa-solid fa-rocket" aria-label="rocket"></i> Research</span></a>
   </li>  
   <li class="nav-item">
@@ -171,92 +111,173 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a>
+  <ul class="collapse">
+  <li><a href="#dont-know-where-to-start" id="toc-dont-know-where-to-start" class="nav-link" data-scroll-target="#dont-know-where-to-start">Don’t know where to start?</a></li>
+  <li><a href="#setting-up-your-environment" id="toc-setting-up-your-environment" class="nav-link" data-scroll-target="#setting-up-your-environment">Setting up your environment</a></li>
+  <li><a href="#emojis" id="toc-emojis" class="nav-link" data-scroll-target="#emojis">EMOJIS!</a></li>
+  <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow">Workflow</a>
+  <ul class="collapse">
+  <li><a href="#pull-requests" id="toc-pull-requests" class="nav-link" data-scroll-target="#pull-requests">Pull requests</a></li>
+  <li><a href="#deployment" id="toc-deployment" class="nav-link" data-scroll-target="#deployment">Deployment</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<p>Blah blah blah about research projects/axes</p>
-<div id="listing-research" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1731680615835" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
-<a href="./research/populations/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/populations/images/bane.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<i class="fa-solid fa-arrow-up-right-dots" aria-label="arrow-up-right-dots"></i> Population Dynamics
-</h5>
-<div class="card-text listing-description">
+<section id="welcome" class="level1">
+<h1>Welcome!</h1>
+<section id="dont-know-where-to-start" class="level2">
+<h2 class="anchored" data-anchor-id="dont-know-where-to-start">Don’t know where to start?</h2>
+<ul>
+<li>report an <em>issue</em> or suggest new <em>content</em> – open an <a href="https://github.com/BecksLab/website/issues">issue</a> on <em>GitHub</em></li>
+<li>improve the <em>documentation</em> – suggest changes in the various READMEs if instructions are unclear</li>
+</ul>
+</section>
+<section id="setting-up-your-environment" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-your-environment">Setting up your environment</h2>
+<p>Have a look at the current <a href="https://docs.julialang.org/en/stable/manual/packages/#Making-changes-to-an-existing-package-1">Julia documentation</a>.</p>
+</section>
+<section id="emojis" class="level2">
+<h2 class="anchored" data-anchor-id="emojis">EMOJIS!</h2>
+<p>Please use emojis, this helps visually sorting through the commits (and makes for a fun time). Inspiration taken from <a href="https://github.com/MichielStock/sciencegitmojis">sciencegitmojis</a></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 21%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">If the commit is about…</th>
+<th style="text-align: left;">…then use</th>
+<th style="text-align: left;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Work in progress</td>
+<td style="text-align: left;"><code>:construction:</code></td>
+<td style="text-align: left;">:construction: new output structure</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bug fix</td>
+<td style="text-align: left;"><code>:bug:</code></td>
+<td style="text-align: left;">:bug: mean fails if NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Fixing typos</td>
+<td style="text-align: left;"><code>:pencil2:</code></td>
+<td style="text-align: left;">:pencil2: README</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Code maintenance</td>
+<td style="text-align: left;"><code>:wrench:</code></td>
+<td style="text-align: left;">:wrench: fix variable names</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">New test</td>
+<td style="text-align: left;"><code>:clapper:</code></td>
+<td style="text-align: left;">:clapper: wget JSON resource</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Plot figures</td>
+<td style="text-align: left;"><code>:bar_chart:</code></td>
+<td style="text-align: left;">:bar_chart: example boundaries</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">New data</td>
+<td style="text-align: left;"><code>:cd:</code></td>
+<td style="text-align: left;">:cd: example pollination network</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">New feature</td>
+<td style="text-align: left;"><code>:sparkles:</code></td>
+<td style="text-align: left;">:sparkles: (insert achievement)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Documentation</td>
+<td style="text-align: left;"><code>:books:</code></td>
+<td style="text-align: left;">:books: lattice function</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Performance improvement</td>
+<td style="text-align: left;"><code>:racehorse:</code></td>
+<td style="text-align: left;">:racehorse: parallelizes models by default</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Upcoming release</td>
+<td style="text-align: left;"><code>:package:</code></td>
+<td style="text-align: left;">:package: v1.0.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ugly but working code</td>
+<td style="text-align: left;"><code>:dragon:</code></td>
+<td style="text-align: left;">:dragon: added lattice function</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Working on code that doesn’t work but I want to go home</td>
+<td style="text-align: left;"><code>:neutral_face:</code></td>
+<td style="text-align: left;">:neutral_face: for triangulation</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">I forgot to save everything before committing</td>
+<td style="text-align: left;"><code>:sandwich:</code></td>
+<td style="text-align: left;">:sandwich: what is saving</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jettisoned something</td>
+<td style="text-align: left;"><code>:boom:</code></td>
+<td style="text-align: left;">:boom: manifest</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="workflow" class="level2">
+<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
+<p>This section describes the general steps to make sure that your contribution is integrated rapidly. Note that the <code>main</code> branch is protected and you will be unable to make any changes directly but rather through pull requests. The general workflow is as follows:</p>
+<ol type="1">
+<li>Create an <a href="https://github.com/BecksLab/website/issues">issue</a> that outlines proposed <em>content</em> or <em>fixes</em></li>
+<li>Fork the repository (see <em>Branches, etc.</em> below)</li>
+<li>Create an <em>explicitly named branch</em> from <code>main</code></li>
+<li>Create a pull request <em>as soon as you make the first commit</em> and link this to the relevant issue</li>
+<li>Be as explicit as possible on your goals</li>
+<li>Do not squash / rebase commits while you work – we will do so when merging</li>
+</ol>
+<section id="pull-requests" class="level3">
+<h3 class="anchored" data-anchor-id="pull-requests">Pull requests</h3>
+<p>Creating a pull request <em>before</em> you push any code will signal that you are interested in contributing to the project. Once this is done, push often, and be explicit about what the commits do (see commits, below). This gives the opportunity for feedback during your work, and allow for tweaks in what you are doing.</p>
+<p>A <em>good</em> pull request (in addition to satisfying to all of the criteria below) is:</p>
+<ol type="1">
+<li>Single purpose - it should do one thing, and one thing only</li>
+<li>Short - it should ideally involve less than 250 lines of code</li>
+<li>Limited in scope - it should ideally not span more than a handful of files</li>
+<li>Well tested and well documented</li>
+<li>Written in a style similar to the rest of the codebase</li>
+</ol>
+<p>This will ensure that your contribution is rapidly reviewed and evaluated.</p>
+</section>
+<section id="deployment" class="level3">
+<h3 class="anchored" data-anchor-id="deployment">Deployment</h3>
+<p>While you are working on changes you can render the site locally using <code>quarto render</code> and if you want to preview it you can use <code>quarto render</code>.</p>
+<p>The website itself is deployed through github actions and is the reason that we will use pull requests as a way to not only act as a checkpoint as to what content is added to the website but also as a means to test that any changes that are made to the files will not break the deployment workflow.</p>
+<p>This is all automated and you do not need to manually activate these deployments however, if they fail you will not be able to merge your pull request and it is at this point that you will need to work out what has caused the build to fail. You can refer to the build logs on Github but it might be easier to run <code>quarto render</code> locally and see what the error messages are from there.</p>
 
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
 
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1731680615779" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
-<a href="./research/foodwebs/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/foodwebs/network.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<i class="fa-solid fa-circle-nodes" aria-label="circle-nodes"></i> Food webs
-</h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1731680615787" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<a href="./research/open_sci/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./research/open_sci/Momo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-<i class="fa-solid fa-globe" aria-label="globe"></i> Open Science
-</h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
-
-
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
