@@ -30,10 +30,12 @@
   image: people/mugshots/hmayall.jpg
   github: hanamayall
 - name: "Penelope Blyth"
-  description: ""
+  description: "Code Dependent"
   image: people/mugshots/pblyth.jpg
   github: BlythPenelope
   orcid: 0000-0003-3071-9668
+  bluesky: blythpenelope.bsky.social
+  googlescholar: i4ZskGMAAAAJ
 - name: "Zuzanna Zagrodka"
   description: ""
   image: people/mugshots/zzagrodka.jpg
