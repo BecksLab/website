@@ -27,6 +27,9 @@
             <br>
                 
             <div class="socialWrap">
+              <% if (item.email) { %>
+                <a href="mailto:<%= item.email %>" class="bi bi-envelope-fill"></a>
+              <%} %>
               <% if (item.github) { %>
                 <a href="https://github.com/<%= item.github %>" class="bi bi-github"></a>
               <%} %>
