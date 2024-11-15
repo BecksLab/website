@@ -32,11 +32,13 @@
   github: hanamayall
   orcid: 0009-0001-5722-8925
 - name: "Penelope Blyth"
-  description: ""
+  description: "Code Dependent"
   image: people/mugshots/pblyth.jpg
   email: pblyth1@sheffield.ac.uk
   github: BlythPenelope
   orcid: 0000-0003-3071-9668
+  bluesky: blythpenelope.bsky.social
+  googlescholar: i4ZskGMAAAAJ
 - name: "Zuzanna Zagrodka"
   description: ""
   image: people/mugshots/zzagrodka.jpg
