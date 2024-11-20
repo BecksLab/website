@@ -1,0 +1,55 @@
+---
+title: "{{< fa kiwi-bird >}} Conservation Biology"
+image: images/Momo.png
+description: " "
+include-in-header: hero_image.html
+metadata-title: ""
+draft: false
+editor: source
+lightbox: auto
+---
+
+<!-- PROJECT 1 -->
+<!-- Side panel -->
+
+:::{.column-page}
+
+:::{.paper-left-column}
+
+<center>
+:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
+<!-- add image url -->
+<img src="images/Raptor.jpg" class="rounded"/></img>
+:::
+</center>
+::: {figure-caption}
+Insert pretty parrot pictures
+:::
+
+:::
+
+
+<!-- Main panel description -->
+
+::: {.paper-main-column}
+
+## <i class="fa-solid fa-kiwi-bird"></i> Parrots
+
+We work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.
+
+We have long term collaborations with the World Parrot Trust centred on biological and social science research into what makes parrot conservation work. We work in Bonaire on Yellow Shouldered Amazons, in Costa Rica on McCaws and theoretically on the demography and economics of parrots.
+
+### Publications
+
+James, TD, Salgero-Gomez, R., Jones, OR, Childs, DZ, Beckerman, AP. 2020. Bridging gaps in demographic analysis with phylogenetic imputation. Conservation Biology https://doi.org/10.1111/cobi.13658
+
+Roberts M.H., Martin R.O., Beckerman A.P. & Williams S.R. 2014. Occupation rates of artificial and restored natural nest cavities by yellow-shouldered Amazons Amazona barbadensis on Bonaire, Caribbean Netherlands. Conservation Evidence, 11, 39-42. 
+
+Beckerman, A. P., M. Boots, and K. J. Gaston. (2007). Urban bird declines and the fear of cats. Animal Conservation 10:320-325.
+
+Graham, K., A. P. Beckerman, and S. Thirgood. (2005). Human-predator-prey conflicts: ecological correlates, prey losses and patterns of management. Biological Conservation 122:159-171.
+:::
+
+:::
+
+<br>
