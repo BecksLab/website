@@ -10,7 +10,7 @@ lightbox: auto
 toc: false
 ---
 
-blah blah blah...
+We connect foraging biology and species interactions to explore the dynamics of species and the stability, structure and function of ecological communities.
 
 <!-- PROJECT 1 -->
 <!-- Side panel -->
@@ -33,53 +33,42 @@ blah blah blah
 
 <br>
 
-## <i class="fa-brands fa-rebel"></i> Project 2
+<!-- PROJECT 2 -->
+<!-- Side panel -->
 
-blah blah blah...
-
-### {{< fa paperclip >}} Publications
-
-publications relevant to project
-
-## <i class="fa-brands fa-rebel"></i> Project 3
-
-blah blah blah...
-
-## {{< fa paperclip >}} Publications
-
-####  Pressure to publish introduces LLM risks
-
-::: {.column-margin}
-[![](images/traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
+:::{.column-page}
+:::{.paper-right-column}
+<center>
+## <i class="fa-solid fa-carrot"></i> Optimal Foraging
+:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
+<!-- add image url -->
+![](images/hunter.png)
 :::
-
-Johnson, T. F., Simmons, B. I., Millard, J., **Strydom, T.**, Danet, A. H., Sweeny, A. R., & Evans, L. C. (2024).\
-*Methods in Ecology and Evolution*\
-[{{< fa file-pen >}} Article](https://doi.org/10.1111/2041-210X.14397)
+</center>
+:::
+<!-- Main panel description -->
+::: {.paper-main-column}
+We explore how optimal foraging and other traits underpin predictions about the dynamics and stability of communities facing multiple simultaneous threats.
+:::
+:::
 
 <br>
 
-#### Effects of past and present microclimates on northern and southern plant species in a managed forest landscape.
+<!-- PROJECT 3 -->
+<!-- Side panel -->
 
-::: {.column-margin}
-[![](images/traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
+:::{.column-page}
+:::{.paper-left-column}
+<center>
+## <i class="fa-solid fa-arrows-to-circle"></i> Stressors
+:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
+<!-- add image url -->
+![](images/Raptor.jpg)
 :::
-
-Christiansen, D. M., **Strydom, T.**, Greiser, C., McClory, R., Ehrlén, J., & Hylander, K. (2023).\
-*Journal of Vegetation Science*\
-[{{< fa file-pen >}} Article](https://doi.org/10.1111/jvs.13197)
-
-<br>
-
-#### Bootstrapping outperforms community‑weighted approaches for estimating the shapes of phenotypic distributions.
-
-::: {.column-margin}
-[![](images/traitstrap.png){height=150, width=150}](https://doi.org/10.1111/2041-210X.14160)
+</center>
 :::
-
-Maitner, B. S., Halbritter, A. H., Telford, R. J., **Strydom, T.**, Chacón‑Labella, J., Henderson, A. N., Lamanna, C., Sloat, L. L., Kerkhoff, A. J., Messier, J., Rasmussen, N. L., Pomati, F., Merz, E., Vandvik, V., & Enquist, B. J. (2023)\
-*Methods in Ecology and Evolution*\
-[{{< fa file-pen >}} Article](https://doi.org/10.1111/2041-210X.14160),
-[{{< fa brands github >}} Repo](https://github.com/EnquistLab/trait_bootstrap_ms)
-
-<br>
+<!-- Main panel description -->
+::: {.paper-main-column}
+blah blah blah
+:::
+:::
