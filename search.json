@@ -32,7 +32,7 @@
     "href": "research/foodwebs/index.html",
     "title": " Food webs",
     "section": "",
-    "text": "blah blah blah…"
+    "text": "We connect foraging biology and species interactions to explore the dynamics of species and the stability, structure and function of ecological communities."
   },
   {
     "objectID": "research/foodwebs/index.html#paleo-networks",
@@ -42,74 +42,32 @@
     "text": "Paleo Networks"
   },
   {
-    "objectID": "research/foodwebs/index.html#project-2",
-    "href": "research/foodwebs/index.html#project-2",
+    "objectID": "research/foodwebs/index.html#optimal-foraging",
+    "href": "research/foodwebs/index.html#optimal-foraging",
     "title": " Food webs",
-    "section": " Project 2",
-    "text": "Project 2\nblah blah blah…\n\n Publications\npublications relevant to project"
+    "section": " Optimal Foraging",
+    "text": "Optimal Foraging"
   },
   {
-    "objectID": "research/foodwebs/index.html#project-3",
-    "href": "research/foodwebs/index.html#project-3",
+    "objectID": "research/foodwebs/index.html#stressors",
+    "href": "research/foodwebs/index.html#stressors",
     "title": " Food webs",
-    "section": " Project 3",
-    "text": "Project 3\nblah blah blah…"
+    "section": " Stressors",
+    "text": "Stressors"
   },
   {
-    "objectID": "research/foodwebs/index.html#publications-1",
-    "href": "research/foodwebs/index.html#publications-1",
-    "title": " Food webs",
-    "section": " Publications",
-    "text": "Publications\n\nPressure to publish introduces LLM risks\n\n\n\nJohnson, T. F., Simmons, B. I., Millard, J., Strydom, T., Danet, A. H., Sweeny, A. R., & Evans, L. C. (2024).\nMethods in Ecology and Evolution\n Article\n\n\n\nEffects of past and present microclimates on northern and southern plant species in a managed forest landscape.\n\n\n\nChristiansen, D. M., Strydom, T., Greiser, C., McClory, R., Ehrlén, J., & Hylander, K. (2023).\nJournal of Vegetation Science\n Article\n\n\n\nBootstrapping outperforms community‑weighted approaches for estimating the shapes of phenotypic distributions.\n\n\n\nMaitner, B. S., Halbritter, A. H., Telford, R. J., Strydom, T., Chacón‑Labella, J., Henderson, A. N., Lamanna, C., Sloat, L. L., Kerkhoff, A. J., Messier, J., Rasmussen, N. L., Pomati, F., Merz, E., Vandvik, V., & Enquist, B. J. (2023)\nMethods in Ecology and Evolution\n Article,  Repo"
-  },
-  {
-    "objectID": "research/populations/index.html",
-    "href": "research/populations/index.html",
-    "title": " Population Dynamics",
+    "objectID": "research/conservation/index.html",
+    "href": "research/conservation/index.html",
+    "title": " Conservation Biology",
     "section": "",
-    "text": "blah blah blah…\n\n\n\n\n\nblah blah blah"
+    "text": "Insert pretty parrot pictures\n\n\n\n\n\nWe work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.\nWe have long term collaborations with the World Parrot Trust centred on biological and social science research into what makes parrot conservation work. We work in Bonaire on Yellow Shouldered Amazons, in Costa Rica on McCaws and theoretically on the demography and economics of parrots.\n\n\nJames, TD, Salgero-Gomez, R., Jones, OR, Childs, DZ, Beckerman, AP. 2020. Bridging gaps in demographic analysis with phylogenetic imputation. Conservation Biology https://doi.org/10.1111/cobi.13658\nRoberts M.H., Martin R.O., Beckerman A.P. & Williams S.R. 2014. Occupation rates of artificial and restored natural nest cavities by yellow-shouldered Amazons Amazona barbadensis on Bonaire, Caribbean Netherlands. Conservation Evidence, 11, 39-42.\nBeckerman, A. P., M. Boots, and K. J. Gaston. (2007). Urban bird declines and the fear of cats. Animal Conservation 10:320-325.\nGraham, K., A. P. Beckerman, and S. Thirgood. (2005). Human-predator-prey conflicts: ecological correlates, prey losses and patterns of management. Biological Conservation 122:159-171."
   },
   {
-    "objectID": "research/populations/index.html#project-1",
-    "href": "research/populations/index.html#project-1",
-    "title": " Population Dynamics",
+    "objectID": "research/conservation/index.html#parrots",
+    "href": "research/conservation/index.html#parrots",
+    "title": " Conservation Biology",
     "section": "",
-    "text": "blah blah blah"
-  },
-  {
-    "objectID": "research/populations/index.html#project-2",
-    "href": "research/populations/index.html#project-2",
-    "title": " Population Dynamics",
-    "section": " Project 2",
-    "text": "Project 2\nblah blah blah"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "the CESSpit",
-    "section": "",
-    "text": "Blah blah blah about research projects/axes\n\n\n\n\n\n\n\n\n\n\n Population Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Food webs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Open Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "values.html",
-    "href": "values.html",
-    "title": "Values",
-    "section": "",
-    "text": "stance on preprints?\ncommitment to OS\nstance on doing responsible (do no harm) science\n\nblah blah blah"
-  },
-  {
-    "objectID": "values.html#what-we-care-about",
-    "href": "values.html#what-we-care-about",
-    "title": "Values",
-    "section": "",
-    "text": "stance on preprints?\ncommitment to OS\nstance on doing responsible (do no harm) science\n\nblah blah blah"
-  },
-  {
-    "objectID": "values.html#why-we-care",
-    "href": "values.html#why-we-care",
-    "title": "Values",
-    "section": "Why we care",
-    "text": "Why we care\nblah blah blah"
+    "text": "We work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.\nWe have long term collaborations with the World Parrot Trust centred on biological and social science research into what makes parrot conservation work. We work in Bonaire on Yellow Shouldered Amazons, in Costa Rica on McCaws and theoretically on the demography and economics of parrots.\n\n\nJames, TD, Salgero-Gomez, R., Jones, OR, Childs, DZ, Beckerman, AP. 2020. Bridging gaps in demographic analysis with phylogenetic imputation. Conservation Biology https://doi.org/10.1111/cobi.13658\nRoberts M.H., Martin R.O., Beckerman A.P. & Williams S.R. 2014. Occupation rates of artificial and restored natural nest cavities by yellow-shouldered Amazons Amazona barbadensis on Bonaire, Caribbean Netherlands. Conservation Evidence, 11, 39-42.\nBeckerman, A. P., M. Boots, and K. J. Gaston. (2007). Urban bird declines and the fear of cats. Animal Conservation 10:320-325.\nGraham, K., A. P. Beckerman, and S. Thirgood. (2005). Human-predator-prey conflicts: ecological correlates, prey losses and patterns of management. Biological Conservation 122:159-171."
   },
   {
     "objectID": "CONTRIBUTING.html",
@@ -145,6 +103,55 @@
     "title": "Welcome!",
     "section": "",
     "text": "This section describes the general steps to make sure that your contribution is integrated rapidly. Note that the main branch is protected and you will be unable to make any changes directly but rather through pull requests. The general workflow is as follows:\n\nCreate an issue that outlines proposed content or fixes\nFork the repository (see Branches, etc. below)\nCreate an explicitly named branch from main\nCreate a pull request as soon as you make the first commit and link this to the relevant issue\nBe as explicit as possible on your goals\nDo not squash / rebase commits while you work – we will do so when merging\n\n\n\nCreating a pull request before you push any code will signal that you are interested in contributing to the project. Once this is done, push often, and be explicit about what the commits do (see commits, below). This gives the opportunity for feedback during your work, and allow for tweaks in what you are doing.\nA good pull request (in addition to satisfying to all of the criteria below) is:\n\nSingle purpose - it should do one thing, and one thing only\nShort - it should ideally involve less than 250 lines of code\nLimited in scope - it should ideally not span more than a handful of files\nWell tested and well documented\nWritten in a style similar to the rest of the codebase\n\nThis will ensure that your contribution is rapidly reviewed and evaluated.\n\n\n\nWhile you are working on changes you can render the site locally using quarto render and if you want to preview it you can use quarto render.\nThe website itself is deployed through github actions and is the reason that we will use pull requests as a way to not only act as a checkpoint as to what content is added to the website but also as a means to test that any changes that are made to the files will not break the deployment workflow.\nThis is all automated and you do not need to manually activate these deployments however, if they fail you will not be able to merge your pull request and it is at this point that you will need to work out what has caused the build to fail. You can refer to the build logs on Github but it might be easier to run quarto render locally and see what the error messages are from there."
+  },
+  {
+    "objectID": "values.html",
+    "href": "values.html",
+    "title": "Values",
+    "section": "",
+    "text": "stance on preprints?\ncommitment to OS\nstance on doing responsible (do no harm) science\n\nblah blah blah"
+  },
+  {
+    "objectID": "values.html#what-we-care-about",
+    "href": "values.html#what-we-care-about",
+    "title": "Values",
+    "section": "",
+    "text": "stance on preprints?\ncommitment to OS\nstance on doing responsible (do no harm) science\n\nblah blah blah"
+  },
+  {
+    "objectID": "values.html#why-we-care",
+    "href": "values.html#why-we-care",
+    "title": "Values",
+    "section": "Why we care",
+    "text": "Why we care\nblah blah blah"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "the CESSpit",
+    "section": "",
+    "text": "Blah blah blah about research projects/axes\n\n\n\n\n\n\n\n\n\n\n Population Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Food webs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Open Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Conservation Biology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/populations/index.html",
+    "href": "research/populations/index.html",
+    "title": " Population Dynamics",
+    "section": "",
+    "text": "blah blah blah…\n\n\n\n\n\nblah blah blah"
+  },
+  {
+    "objectID": "research/populations/index.html#project-1",
+    "href": "research/populations/index.html#project-1",
+    "title": " Population Dynamics",
+    "section": "",
+    "text": "blah blah blah"
+  },
+  {
+    "objectID": "research/populations/index.html#project-2",
+    "href": "research/populations/index.html#project-2",
+    "title": " Population Dynamics",
+    "section": " Project 2",
+    "text": "Project 2\nblah blah blah"
   },
   {
     "objectID": "research/open_sci/index.html",
