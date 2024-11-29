@@ -1,13 +1,43 @@
 /*-- scss:defaults --*/
 
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 // Colors
 $black: #0C1A1A;
 $white: #ffffff;
-$darkblue: #024059;
-$blue: #539DA6;
-$silver: #AAA9AD;
-$green: #6DF2A7;
-$darkgreen: #59824E;
+$primary: #254371;
+$secondary: #5EBF92;
+$accent1: #FF9B30;
+$accent2: #A77694;
+
+
+/*-- scss:rules --*/
+
+// CSS rules
+
+h1 {
+  color: $primary;
+  font-family: Anton;
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+h2 {
+  color: $secondary;
+  font-family: Raleway;
+  font-size: 2.0rem;
+  font-weight: 600;
+}
+
+h3 {
+  color: $secondary;
+  font-family: Raleway;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
 
 /* For resource listings */
 
@@ -63,19 +93,14 @@ $darkgreen: #59824E;
             li {
                 display: inline-block;
                 white-space: nowrap;
-                background-color: $black;
+                background-color: $primary;
                 margin: 0 0.2em 0.4em 0;
                 padding: 0.2em 0.4em;
                 font-size: 0.85em;
                 border-radius: 0.25rem;
 
-                &.no-link {
-                    background-color: $white;
-                    border: 1px solid $black;
-                }
-
                 a {
-                    color: $white;
+                    color: $accent1;
                     text-decoration: none;
                 }
             }

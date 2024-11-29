@@ -1,15 +1,18 @@
 /* title */
 .title {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 700;
     line-height: 1.1em !important;
+    font-family: Audiowide;
+    font-style: normal;
+    color: #5EBF92;
   }
-  
+
   /* subtitle + Learn More About Me */
   .subtitle {
-    font-family: "Petrona";
+    font-family: Anton;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
   }
@@ -41,7 +44,7 @@
   /* Learn More About Me */
   .about-links.subtitle {
     font-size: 1em !important;
-    font-family: "Red Hat Text";
+    font-family: Raleway;
     justify-content: flex-end !important;
   }
   
