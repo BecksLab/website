@@ -72,3 +72,24 @@ We explore how optimal foraging and other traits underpin predictions about the 
 blah blah blah
 :::
 :::
+
+<br>
+
+<!-- PROJECT 4 -->
+<!-- Side panel -->
+
+:::{.column-page}
+:::{.paper-right-column}
+<center>
+:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
+<!-- add image url -->
+![](images/Raptor.jpg)
+:::
+</center>
+:::
+<!-- Main panel description -->
+::: {.paper-main-column}
+## <i class="fa-solid fa-chart-line"></i> Stability
+Alain's work
+:::
+:::
