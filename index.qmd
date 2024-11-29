@@ -8,10 +8,10 @@ about:
   template: solana
   image-width: 28em
   id: hero-heading
-  links:
-    - icon: github
-      aria-label: GitHub
-      href: https://github.com/beckslab
+#  links:
+#    - icon: github
+#      aria-label: GitHub
+#      href: https://github.com/beckslab
 page-layout: full
 
 header-includes: >
@@ -22,7 +22,7 @@ resources:
 
 ::: {#hero-heading}
 
-**ey up!**
+[ey up!]{.about-links .subtitle}
 
 We use computers and lots of numbers to learn about the long-term stability of communities, and how they respond to stressors.
 
