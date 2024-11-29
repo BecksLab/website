@@ -1,7 +1,7 @@
 ---
-title: "the CESSpit"
-pagetitle: "the CESSpit"
-subtitle: "the Computational Ecology Society of Sheffield"
+title: "BioForge"
+pagetitle: "BioForge"
+subtitle: "forward-thinking research, with a focus on networks and populations"
 image: research/foodwebs/network.jpg
 
 about:
@@ -22,7 +22,9 @@ resources:
 
 ::: {#hero-heading}
 
-We use thinking-boxes and lots of numbers to learn about the long-term stability of communities, and how they respond to stressors.
+**ey up!**
+
+We use computers and lots of numbers to learn about the long-term stability of communities, and how they respond to stressors.
 
 We work at the intersection of population and community ecology to help us understand how communities change and evolve. We approach these questions using a combination of data-driven analyses and simulations.
 
