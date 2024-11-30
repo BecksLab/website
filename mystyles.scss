@@ -4,15 +4,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 // Colors
-$black: #0C1A1A;
+$black: #262406;
 $white: #ffffff;
-$primary: #254371;
-$secondary: #5EBF92;
-$accent1: #FF9B30;
-$accent2: #A77694;
+$primary: #042940;
+$secondary: #005C53;
+$accent1: #DBF227;
+$accent2: #DB8655;
+$accent3: #62771B;
 
+// Base document colors
+$navbar-bg: $primary; // navbar
+$navbar-fg: $accent2; // navbar foreground elements
+$navbar-hl: $accent1; // highlight color when hovering over navbar links
+$body-bg: $white; // page background 
+$body-color: $black; // page text 
+$footer-bg: $secondary; // footer 
+$footer-fg: $accent1; // footer 
+$link-color: $secondary; // hyperlinks 
 
 /*-- scss:rules --*/
 
@@ -37,6 +48,16 @@ h3 {
   font-family: Raleway;
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+.navbar li.nav-item a.nav-link span {
+  font-size: 1.2rem;
+  font-family: Raleway;
+}
+
+.navbar-title {
+  font-family: Audiowide;
+  font-size: 2rem;
 }
 
 /* For resource listings */
