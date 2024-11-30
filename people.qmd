@@ -1,7 +1,7 @@
 ---
 title: "Meet the Team"
-description: |
-  Stuff (if we want)
+#description: |
+#  Stuff (if we want)
 listing:
   - id: current_members
     template: assets/ejs/people_current.ejs
@@ -16,10 +16,18 @@ toc-location: right
 
 ## Current members
 
+The people are what makes BioForge great! Here are the wonderful group members.
+
 ::: {#current_members}
 :::
 
 ## Past members
 
+Many wonderful people have called BioForge home and have since gone on to do some amazing things. (While others never leave!)
+
 ::: {#past_members}
 :::
+
+## Collaborators
+
+We work with some incredible researchers spanning several continents. These collaborations keep our science great and make the process all the more fun and rewarding.
