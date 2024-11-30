@@ -6,7 +6,8 @@ listing:
     template: assets/ejs/resources.ejs
     contents:
         - title: EcologicalNetworksDynamics.jl
-          description: blah blah blah
+          description: |
+            A package for simulating species biomass dynamics in ecological networks for beginners and adventurous users alike.
           links:
           - name: "GitHub"
             icon: github
@@ -14,6 +15,14 @@ listing:
           - name: "Preprint"
             icon: book
             url: https://doi.org/10.1101/2024.03.20.585899
+          logo: resources/END.png
+        - title: BEFW with Julia
+          description: |
+            A series of tutorials for getting started with Julia and the Bioenergetic Food Web model.
+          links:
+          - name: "Tutorials"
+            icon: laptop
+            url: https://beckslab.github.io/JuliaTutorials_BecksLab/
           logo: resources/END.png
   - id: R
     template: assets/ejs/resources.ejs
