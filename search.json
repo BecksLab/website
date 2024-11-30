@@ -39,49 +39,77 @@
     "href": "research/foodwebs/index.html#paleo-networks",
     "title": " Food webs",
     "section": " Paleo Networks",
-    "text": "Paleo Networks\nblah blah blah"
+    "text": "Paleo Networks\n\n\n\n\n\nblah blah blah"
   },
   {
     "objectID": "research/foodwebs/index.html#optimal-foraging",
     "href": "research/foodwebs/index.html#optimal-foraging",
     "title": " Food webs",
     "section": " Optimal Foraging",
-    "text": "Optimal Foraging\nWe explore how optimal foraging and other traits underpin predictions about the dynamics and stability of communities facing multiple simultaneous threats."
+    "text": "Optimal Foraging\n\n\nWe explore how optimal foraging and other traits underpin predictions about the dynamics and stability of communities facing multiple simultaneous threats."
   },
   {
     "objectID": "research/foodwebs/index.html#stressors",
     "href": "research/foodwebs/index.html#stressors",
     "title": " Food webs",
     "section": " Stressors",
-    "text": "Stressors\nblah blah blah"
+    "text": "Stressors\n\n\n\n\n\nblah blah blah"
   },
   {
     "objectID": "research/foodwebs/index.html#stability",
     "href": "research/foodwebs/index.html#stability",
     "title": " Food webs",
     "section": " Stability",
-    "text": "Stability\nAlain’s work"
+    "text": "Stability\n\n\nAlain’s work"
   },
   {
-    "objectID": "research/conservation/index.html",
-    "href": "research/conservation/index.html",
-    "title": " Conservation Biology",
+    "objectID": "research/populations/index.html",
+    "href": "research/populations/index.html",
+    "title": " Population Dynamics",
     "section": "",
-    "text": "We work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.  We have long term collaborations with the World Parrot Trust centred on biological and social science research into what makes parrot conservation work. We work in Bonaire on Yellow Shouldered Amazons, in Costa Rica on McCaws and theoretically on the demography and economics of parrots."
+    "text": "blah blah blah…"
   },
   {
-    "objectID": "research/conservation/index.html#parrots",
-    "href": "research/conservation/index.html#parrots",
-    "title": " Conservation Biology",
+    "objectID": "research/populations/index.html#project-1",
+    "href": "research/populations/index.html#project-1",
+    "title": " Population Dynamics",
     "section": "",
-    "text": "We work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.  We have long term collaborations with the World Parrot Trust centred on biological and social science research into what makes parrot conservation work. We work in Bonaire on Yellow Shouldered Amazons, in Costa Rica on McCaws and theoretically on the demography and economics of parrots."
+    "text": "blah blah blah…"
   },
   {
-    "objectID": "research/conservation/index.html#human-wildlife-conflict",
-    "href": "research/conservation/index.html#human-wildlife-conflict",
-    "title": " Conservation Biology",
-    "section": " Human-wildlife Conflict",
-    "text": "Human-wildlife Conflict\n\n\n\nHuman-wildlife interactions in human dominated landscapes in Africa focusing on large carnivores adaptability to changing environments"
+    "objectID": "research/populations/index.html#project-2",
+    "href": "research/populations/index.html#project-2",
+    "title": " Population Dynamics",
+    "section": " Project 2",
+    "text": "Project 2\n\n\nblah blah blah…"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "BioForge",
+    "section": "",
+    "text": "Blah blah blah about research projects/axes\n\n\n\n\n\n\n\n\n\n\n Population Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Food webs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Conservation Biology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "values.html",
+    "href": "values.html",
+    "title": "Values",
+    "section": "",
+    "text": "stance on preprints?\ncommitment to OS\nstance on doing responsible (do no harm) science\n\n\n\n\n\nThe assumption is that every member is already self-motivated and may choose to deviate from a traditional 9 to 5 to best suit their needs. They are welcome to send work-related messages, or submit pull requests outside of traditional working hours or days, with the expectation that other members are not required to respond to them outside of their typical working hours.\nMembers are welcome to work flexibly or remotely for any reason, however it is encouraged that they attend our weekly group meeting and to participate in activities."
+  },
+  {
+    "objectID": "values.html#what-we-care-about",
+    "href": "values.html#what-we-care-about",
+    "title": "Values",
+    "section": "",
+    "text": "stance on preprints?\ncommitment to OS\nstance on doing responsible (do no harm) science\n\n\n\n\n\nThe assumption is that every member is already self-motivated and may choose to deviate from a traditional 9 to 5 to best suit their needs. They are welcome to send work-related messages, or submit pull requests outside of traditional working hours or days, with the expectation that other members are not required to respond to them outside of their typical working hours.\nMembers are welcome to work flexibly or remotely for any reason, however it is encouraged that they attend our weekly group meeting and to participate in activities."
+  },
+  {
+    "objectID": "values.html#why-we-care",
+    "href": "values.html#why-we-care",
+    "title": "Values",
+    "section": "Why we care",
+    "text": "Why we care"
   },
   {
     "objectID": "CONTRIBUTING.html",
@@ -119,60 +147,32 @@
     "text": "This section describes the general steps to make sure that your contribution is integrated rapidly. Note that the main branch is protected and you will be unable to make any changes directly but rather through pull requests. The general workflow is as follows:\n\nCreate an issue that outlines proposed content or fixes\nFork the repository (see Branches, etc. below)\nCreate an explicitly named branch from main\nCreate a pull request as soon as you make the first commit and link this to the relevant issue\nBe as explicit as possible on your goals\nDo not squash / rebase commits while you work – we will do so when merging\n\n\n\nCreating a pull request before you push any code will signal that you are interested in contributing to the project. Once this is done, push often, and be explicit about what the commits do (see commits, below). This gives the opportunity for feedback during your work, and allow for tweaks in what you are doing.\nA good pull request (in addition to satisfying to all of the criteria below) is:\n\nSingle purpose - it should do one thing, and one thing only\nShort - it should ideally involve less than 250 lines of code\nLimited in scope - it should ideally not span more than a handful of files\nWell tested and well documented\nWritten in a style similar to the rest of the codebase\n\nThis will ensure that your contribution is rapidly reviewed and evaluated.\n\n\n\nWhile you are working on changes you can render the site locally using quarto render and if you want to preview it you can use quarto render.\nThe website itself is deployed through github actions and is the reason that we will use pull requests as a way to not only act as a checkpoint as to what content is added to the website but also as a means to test that any changes that are made to the files will not break the deployment workflow.\nThis is all automated and you do not need to manually activate these deployments however, if they fail you will not be able to merge your pull request and it is at this point that you will need to work out what has caused the build to fail. You can refer to the build logs on Github but it might be easier to run quarto render locally and see what the error messages are from there."
   },
   {
-    "objectID": "values.html",
-    "href": "values.html",
-    "title": "Values",
+    "objectID": "research/conservation/index.html",
+    "href": "research/conservation/index.html",
+    "title": " Conservation Biology",
     "section": "",
-    "text": "stance on preprints?\ncommitment to OS\nstance on doing responsible (do no harm) science\n\n\n\n\n\nThe assumption is that every member is already self-motivated and may choose to deviate from a traditional 9 to 5 to best suit their needs. They are welcome to send work-related messages, or submit pull requests outside of traditional working hours or days, with the expectation that other members are not required to respond to them outside of their typical working hours.\nMembers are welcome to work flexibly or remotely for any reason, however it is encouraged that they attend our weekly group meeting and to participate in activities."
+    "text": "Tom’s work"
   },
   {
-    "objectID": "values.html#what-we-care-about",
-    "href": "values.html#what-we-care-about",
-    "title": "Values",
+    "objectID": "research/conservation/index.html#big-data-ecology",
+    "href": "research/conservation/index.html#big-data-ecology",
+    "title": " Conservation Biology",
     "section": "",
-    "text": "stance on preprints?\ncommitment to OS\nstance on doing responsible (do no harm) science\n\n\n\n\n\nThe assumption is that every member is already self-motivated and may choose to deviate from a traditional 9 to 5 to best suit their needs. They are welcome to send work-related messages, or submit pull requests outside of traditional working hours or days, with the expectation that other members are not required to respond to them outside of their typical working hours.\nMembers are welcome to work flexibly or remotely for any reason, however it is encouraged that they attend our weekly group meeting and to participate in activities."
+    "text": "Tom’s work"
   },
   {
-    "objectID": "values.html#why-we-care",
-    "href": "values.html#why-we-care",
-    "title": "Values",
-    "section": "Why we care",
-    "text": "Why we care"
+    "objectID": "research/conservation/index.html#human-wildlife-conflict",
+    "href": "research/conservation/index.html#human-wildlife-conflict",
+    "title": " Conservation Biology",
+    "section": " Human-wildlife Conflict",
+    "text": "Human-wildlife Conflict\n\n\nHuman-wildlife interactions in human dominated landscapes in Africa focusing on large carnivores adaptability to changing environments"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "BioForge",
-    "section": "",
-    "text": "Blah blah blah about research projects/axes\n\n\n\n\n\n\n\n\n\n\n Population Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Food webs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Open Science\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Conservation Biology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/populations/index.html",
-    "href": "research/populations/index.html",
-    "title": " Population Dynamics",
-    "section": "",
-    "text": "blah blah blah…\n\n\n\n\n\nblah blah blah"
-  },
-  {
-    "objectID": "research/populations/index.html#project-1",
-    "href": "research/populations/index.html#project-1",
-    "title": " Population Dynamics",
-    "section": "",
-    "text": "blah blah blah"
-  },
-  {
-    "objectID": "research/populations/index.html#project-2",
-    "href": "research/populations/index.html#project-2",
-    "title": " Population Dynamics",
-    "section": " Project 2",
-    "text": "Project 2\nblah blah blah"
-  },
-  {
-    "objectID": "research/open_sci/index.html",
-    "href": "research/open_sci/index.html",
-    "title": " Open Science",
-    "section": "",
-    "text": "blah blah blah…"
+    "objectID": "research/conservation/index.html#parrots",
+    "href": "research/conservation/index.html#parrots",
+    "title": " Conservation Biology",
+    "section": " Parrots",
+    "text": "Parrots\n\n\n\n\n\nWe work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.\nWe have long term collaborations with the World Parrot Trust centred on biological and social science research into what makes parrot conservation work. We work in Bonaire on Yellow Shouldered Amazons, in Costa Rica on McCaws and theoretically on the demography and economics of parrots."
   },
   {
     "objectID": "resources.html",
