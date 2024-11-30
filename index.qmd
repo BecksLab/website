@@ -22,15 +22,11 @@ resources:
 
 ::: {#hero-heading}
 
-[ey up!]{.about-links .subtitle}
+[ey up!]{.ey-up}
 
-We use computers and lots of numbers to learn about the long-term stability of communities, and how they respond to stressors.
-
-We work at the intersection of population and community ecology to help us understand how communities change and evolve. We approach these questions using a combination of data-driven analyses and simulations.
+We work at the intersection of population and community ecology to help us understand the long-term stability of communities. We approach these questions using a combination of data-driven analyses and simulations.
 
 We have a specific interest in ecological networks, allometry, demography, and paleo communities.
-
-*Insert stance on open science (and other)*
 
 [Learn more about our research &rarr;](research.qmd){.about-links .subtitle}
 
