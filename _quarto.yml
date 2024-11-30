@@ -29,7 +29,7 @@ website:
 
 format:
   html:
-    theme: [cosmo, mystyles.scss]
+    theme: [minty, mystyles.scss]
     toc: true
     page-layout: full
     format:
