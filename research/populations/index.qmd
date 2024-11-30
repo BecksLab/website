@@ -10,39 +10,15 @@ lightbox: auto
 ---
 
 <!-- PROJECT 1 -->
-<!-- Side panel -->
-
-:::{.column-page}
-
-:::{.paper-left-column}
-
-<center>
-:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
-<!-- add image url -->
-<img src="images/Baby_yoda.png" class="rounded"/></img>
-:::
-</center>
-<!-- edit caption
-::: figure-caption
-[*Culex (Culex) sitiens* (Nick Lambert CC BY NC SA 3.0)](https://images.ala.org.au/image/details?imageId=20e67558-6fe7-49cc-964a-aaabca0933cb)
-:::
- -->
-
-### Publications
-
-blah blah blah...
-
-
-:::
-
-
-<!-- Main panel description -->
-
-::: {.paper-main-column}
-
 ## <i class="fa-brands fa-mandalorian"></i> Project 1
+::: {.grid}
 
-blah blah blah
+::: {.g-col-7}
+![](images/Baby_yoda.png)
+:::
+
+::: {.g-col-5}
+blah blah blah...
 :::
 
 :::
@@ -50,39 +26,17 @@ blah blah blah
 <br>
 
 <!-- PROJECT 2 -->
-<!-- Side panel -->
-
-:::{.column-page}
-
-:::{.paper-right-column}
-
-<center>
-:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
-<!-- add image url -->
-<img src="images/obiwan.png" class="rounded"/></img>
-:::
-</center>
-<!-- edit caption
-::: figure-caption
-[*Culex (Culex) sitiens* (Nick Lambert CC BY NC SA 3.0)](https://images.ala.org.au/image/details?imageId=20e67558-6fe7-49cc-964a-aaabca0933cb)
-:::
- -->
-
-### Publications
-
-blah blah
-
-
-:::
-
-
-<!-- Main panel description -->
-
-::: {.paper-main-column}
-
 ## <i class="fa-brands fa-jedi-order"></i> Project 2
+::: {.grid}
 
-blah blah blah
+::: {.g-col-5}
+blah blah blah...
+:::
+
+::: {.g-col-7}
+![](images/obiwan.png)
 :::
 
 :::
+
+<br>

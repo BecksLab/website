@@ -180,38 +180,3 @@ h3 {
     padding-left: 105px;
     font-weight: bold;
   }
-
-/* For research cards */
-
-.paper-left-column {
-    float: left;
-    width: 55%;
-    padding: 20px 20px;
-    flex-direction: column;
-    background-color: #EEECEA;
-    font-size: .85rem;
-    border-radius: 30px;
-  }
-  
-.paper-main-column {
-    float: left;
-    width: 40%;
-    padding: 0 0px;
-    flex-direction: column;
-    margin-left: 50px;
-  }
-
-.paper-right-column {
-    float: right;
-    width: 55%;
-    padding: 20px 20px;
-    flex-direction: column;
-    background-color: #EEECEA;
-    font-size: .85rem;
-    border-radius: 30px;
-  }
-
-  
-.col-image {
-    width: 80%;
-  }

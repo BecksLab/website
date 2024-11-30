@@ -7,89 +7,71 @@ metadata-title: ""
 draft: false
 editor: source
 lightbox: auto
-toc: false
 ---
 
 We connect foraging biology and species interactions to explore the dynamics of species and the stability, structure and function of ecological communities.
 
 <!-- PROJECT 1 -->
-<!-- Side panel -->
+## <i class="fa-solid fa-skull"></i> Paleo Networks
+::: {.grid}
 
-:::{.column-page}
-:::{.paper-left-column}
-<center>
-:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
-<!-- add image url -->
+::: {.g-col-7}
 ![](images/Raptor.jpg)
 :::
-</center>
-:::
-<!-- Main panel description -->
-::: {.paper-main-column}
-## <i class="fa-solid fa-skull"></i> Paleo Networks
+
+::: {.g-col-5}
 blah blah blah
 :::
+
 :::
 
 <br>
 
 <!-- PROJECT 2 -->
-<!-- Side panel -->
-
-:::{.column-page}
-:::{.paper-right-column}
-<center>
-:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
-<!-- add image url -->
-![](images/hunter.png)
-:::
-</center>
-:::
-<!-- Main panel description -->
-::: {.paper-main-column}
 ## <i class="fa-solid fa-carrot"></i> Optimal Foraging
+
+::: {.grid}
+
+::: {.g-col-5}
 We explore how optimal foraging and other traits underpin predictions about the dynamics and stability of communities facing multiple simultaneous threats.
 :::
+
+::: {.g-col-7}
+![](images/hunter.png)
+:::
+
 :::
 
 <br>
 
 <!-- PROJECT 3 -->
-<!-- Side panel -->
+## <i class="fa-solid fa-arrows-to-circle"></i> Stressors
 
-:::{.column-page}
-:::{.paper-left-column}
-<center>
-:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
-<!-- add image url -->
+::: {.grid}
+
+::: {.g-col-7}
 ![](images/Raptor.jpg)
 :::
-</center>
-:::
-<!-- Main panel description -->
-::: {.paper-main-column}
-## <i class="fa-solid fa-arrows-to-circle"></i> Stressors
+
+::: {.g-col-5}
 blah blah blah
 :::
+
 :::
 
 <br>
 
 <!-- PROJECT 4 -->
-<!-- Side panel -->
-
-:::{.column-page}
-:::{.paper-right-column}
-<center>
-:::{.col-image layout-ncol=1 style="margin-left: auto; margin-right: auto;"}
-<!-- add image url -->
-![](images/Raptor.jpg)
-:::
-</center>
-:::
-<!-- Main panel description -->
-::: {.paper-main-column}
 ## <i class="fa-solid fa-chart-line"></i> Stability
+
+::: {.grid}
+
+::: {.g-col-5}
 Alain's work
 :::
+
+::: {.g-col-7}
+![](images/Raptor.jpg)
+:::
+
 :::

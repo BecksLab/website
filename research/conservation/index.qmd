@@ -7,17 +7,52 @@ metadata-title: ""
 draft: false
 editor: source
 lightbox: auto
-cap-location: margin
 ---
 
-## <i class="fa-solid fa-kiwi-bird"></i> Parrots
+## <i class="fa-solid fa-globe"></i> Big Data Ecology
+::: {.grid}
 
-![We work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species. <br><br> We have long term collaborations with the World Parrot Trust centred on biological and social science research into what makes parrot conservation work. We work in Bonaire on Yellow Shouldered Amazons, in Costa Rica on McCaws and theoretically on the demography and economics of parrots.](images/Raptor.jpg)
+::: {.g-col-7}
+![](images/Raptor.jpg)
+:::
+
+::: {.g-col-5}
+Tom's work
+:::
+
+:::
 
 <br>
 
 ## <i class="fa-solid fa-drumstick-bite"></i> Human-wildlife Conflict
+::: {.grid}
 
-![Human-wildlife interactions in human dominated landscapes in Africa focusing on large carnivores adaptability to changing environments](images/hyena.png){width=100%}
+::: {.g-col-5}
+Human-wildlife interactions in human dominated landscapes in Africa focusing on large carnivores adaptability to changing environments
+:::
+
+::: {.g-col-7}
+![](images/hyena.png)
+:::
+
+:::
+
+<br>
+
+
+## <i class="fa-solid fa-kiwi-bird"></i> Parrots
+::: {.grid}
+
+::: {.g-col-7}
+![](images/Raptor.jpg)
+:::
+
+::: {.g-col-5}
+We work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species. 
+
+We have long term collaborations with the World Parrot Trust centred on biological and social science research into what makes parrot conservation work. We work in Bonaire on Yellow Shouldered Amazons, in Costa Rica on McCaws and theoretically on the demography and economics of parrots.
+:::
+
+:::
 
 <br>
