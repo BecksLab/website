@@ -19,6 +19,13 @@ website:
         text: Join Us
       - href: https://github.com/BecksLab
         icon: github
+  page-footer:     
+    left: |
+      Made using [*Quarto*](https://quarto.org)
+    right: 
+      - icon: code
+        text: "{{< fa code >}} Source code"
+        href: https://github.com/TanyaS08/TanyaDoesScience
 
 format:
   html:
