@@ -1,27 +1,10 @@
 
-- name: "Andrew P. Beckerman"
-  description: "Ecologist (sometimes)"
-  image: people/mugshots/abeckerman.jpg
-  email: andrew.p.beckerman@sheffield.ac.uk
-  github: andbeck
-  orcid: 0000-0002-4797-9143
-  twitter: beckerhopper
-- name: "Alain Danet"
-  description: "Stability of complex food webs"
-  image: people/mugshots/adanet.jpg
-  github: alaindanet
-  orcid: 0000-0002-1592-9483
-  www: https://alaindanet.github.io/
-  googlescholar: iijI6msAAAAJ
-  email: a.h.danet@sheffield.ac.uk
-- name: "Tanya Strydom"
-  description: "🦖 DINOSAUR food webs"
-  image: people/mugshots/tstrydom.png
-  email: tanya.strydom@sheffield.ac.uk
-  github: TanyaS08
-  bluesky: tanyadoesscience.bsky.social
-  orcid: 0000-0001-6067-1349
-  www: https://tanyadoesscience.com/
-- name: "Alina Smith"
-  description: ""
-  image: people/mugshots/asmith.jpg
+- name: "Thomas Guillerme"
+  github: TGuillerme
+  orcid: 0000-0003-4325-1275
+- name: "Eva Delmas"
+  github: evadelmas
+  googlescholar: U2NR7WEAAAAJ
+- name: "Chris Griffiths"
+  github: cagriffiths
+  googlescholar: ctGKMk8AAAAJ
