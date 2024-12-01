@@ -16,11 +16,13 @@ We connect foraging biology and species interactions to explore the dynamics of 
 ::: {.grid}
 
 ::: {.g-col-7}
-![](images/Raptor.jpg)
+![](images/extinctions.png)
 :::
 
 ::: {.g-col-5}
-blah blah blah
+[How has ancient climate change driven patterns of diversity, stability, and the resilience of paleo communities?]{.research-question}
+
+Food webs provide us with a means to understand community structure, and provides us a framework to understand how extinctions lead to the reorganisation or collapse of communities, ultimately allowing us to understand the reorganisation of communities following perturbation events.
 :::
 
 :::
@@ -67,7 +69,7 @@ blah blah blah
 ::: {.grid}
 
 ::: {.g-col-5}
-Alain's work
+We work on how community structure and species interactions affect community stability.
 :::
 
 ::: {.g-col-7}
