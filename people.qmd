@@ -31,3 +31,48 @@ Many wonderful people have called BioForge home and have since gone on to do som
 ## Collaborators
 
 We work with some incredible researchers spanning several continents. These collaborations keep our science great and make the process all the more fun and rewarding.
+
+```{r}
+#| echo: false
+#| warning: false
+
+library(plotly)
+library(tidyverse)
+library(maps)
+
+base_map <- map_data("world")
+collabs <- world.cities %>% filter(name %in% c("Montreal", "Leeds", "Zurich", "Montpellier"))
+
+
+# flights between airports
+flights <- read.csv('https://raw.githubusercontent.com/plotly/datasets/master/2011_february_aa_flight_paths.csv')
+flights$id <- seq_len(nrow(flights))
+
+# map projection
+geo <- list(
+  scope = 'world',
+  projection = list(type = "equirectangular"),
+  showland = TRUE,
+  landcolor = toRGB("gray95"),
+  countrycolor = toRGB("gray80")
+)
+
+fig <- plot_geo(color = I("red"))
+fig <- fig %>% add_segments(
+    data = collabs,
+    x = -1.48, xend = ~long,
+    y = 53.39, yend = ~lat,
+    alpha = 0.3, hoverinfo = "none"
+  ) %>% 
+  add_markers(
+  data = collabs, x = ~long, y = ~lat, text = ~name,
+  hoverinfo = "text", alpha = 0.5
+) %>% 
+layout(
+    geo = geo, showlegend = FALSE
+  )
+
+fig
+
+
+```
