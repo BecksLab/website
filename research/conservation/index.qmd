@@ -17,7 +17,7 @@ lightbox: auto
 :::
 
 ::: {.g-col-5}
-Tom's work
+The core underlying ethos running through all of my research is a drive to solve global challenges. I am currently focussed on, and working towards, describing biodiversity change and its drivers, and identifying pathways towards biodiversity protection and recovery, all whilst balancing the needs of people and society.
 :::
 
 :::
