@@ -39,4 +39,6 @@ format:
     css: assets/css/styles.css
 
 
+execute:
+  freeze: auto
 
