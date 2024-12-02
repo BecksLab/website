@@ -14,21 +14,21 @@ listing:
 toc-location: right
 ---
 
-## Current members
+## <i class="fa-regular fa-id-card"></i> Current members
 
 The people are what makes BioForge great! Here are the wonderful group members.
 
 ::: {#current_members}
 :::
 
-## Past members
+## <i class="fa-solid fa-clock-rotate-left"></i> Past members
 
 Many wonderful people have called BioForge home and have since gone on to do some amazing things. (While others never leave!)
 
 ::: {#past_members}
 :::
 
-## Collaborators
+## <i class="fa-solid fa-user-plus"></i> Collaborators
 
 We work with some incredible researchers spanning several continents. These collaborations keep our science great and make the process all the more fun and rewarding.
 
