@@ -28,7 +28,10 @@ The core underlying ethos running through all of my research is a drive to solve
 ::: {.grid}
 
 ::: {.g-col-5}
-Human-wildlife interactions in human dominated landscapes in Africa focusing on large carnivores adaptability to changing environments
+[How has conflict modified human-wildlife conflict?]{.research-question}
+
+
+We work on understanding human-wildlife interactions in human dominated landscapes in Africa. In particular we are interested in understanding diet shifts of large carnivores and how they adapt to changing environments.
 :::
 
 ::: {.g-col-7}
