@@ -28,7 +28,7 @@ We work at the intersection of population and community ecology to help us under
 
 We have a specific interest in ecological networks, allometry, demography, and paleo communities.
 
-[Learn more about our research &rarr;](research.qmd){.about-links .subtitle}
+[Learn more about our research axes &rarr;](research.qmd){.about-links .subtitle}
 
 :::
 <!-- hero-heading -->
