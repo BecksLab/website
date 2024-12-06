@@ -3,6 +3,7 @@ project:
 
 website:
   title: "BioForge"
+  favicon: assets/images/logo.png
   search: false
   navbar:
     logo: assets/images/logo.png
