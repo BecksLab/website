@@ -69,6 +69,8 @@ blah blah blah
 ::: {.grid}
 
 ::: {.g-col-5}
+[How does food web structure determine the temporal stability of ecological communities?]{.research-question}
+
 We work on how community structure and species interactions affect community stability.
 :::
 
