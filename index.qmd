@@ -1,6 +1,6 @@
 ---
-title: "BioForge"
-pagetitle: "BioForge"
+title: "EcoForge"
+pagetitle: "EcoForge"
 subtitle: "forward-thinking research, with a focus on networks and populations"
 image: research/foodwebs/network.jpg
 
@@ -24,11 +24,11 @@ resources:
 
 [ey up!]{.ey-up}
 
-We work at the intersection of population and community ecology to help us understand the long-term stability of communities. We approach these questions using a combination of data-driven analyses and simulations.
+We work at the intersection of population and community ecology to help us understand the long-term stability of communities, using a combination of data-driven analyses and simulations.
 
-We have a specific interest in ecological networks, allometry, demography, and paleo communities.
+We have a specific interest in ecological networks, allometry, and demography.
 
-[Learn more about our research axes &rarr;](research.qmd){.about-links .subtitle}
+[Learn more about our research &rarr;](research.qmd){.about-links .subtitle}
 
 :::
 <!-- hero-heading -->
