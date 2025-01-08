@@ -41,7 +41,8 @@ library(tidyverse)
 library(maps)
 
 base_map <- map_data("world")
-collabs <- world.cities %>% filter(name %in% c("Montreal", "Leeds", "Zurich", "Montpellier"))
+collabs <- world.cities %>% filter(name %in% c("Montreal", "Leeds", "Zurich", "Montpellier") |
+                                   name == "Santa Fe" & country.etc == "USA")
 
 
 # flights between airports
