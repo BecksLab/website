@@ -274,9 +274,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="deployment" class="level3">
 <h3 class="anchored" data-anchor-id="deployment">Deployment</h3>
-<p>While you are working on changes you can render the site locally using <code>quarto render</code> and if you want to preview it you can use <code>quarto render</code>.</p>
+<p>While you are working on changes you can render the site locally using <code>quarto render</code> and if you want to preview it you can use <code>quarto preview</code>.</p>
 <p>The website itself is deployed through github actions and is the reason that we will use pull requests as a way to not only act as a checkpoint as to what content is added to the website but also as a means to test that any changes that are made to the files will not break the deployment workflow.</p>
-<p>This is all automated and you do not need to manually activate these deployments however, if they fail you will not be able to merge your pull request and it is at this point that you will need to work out what has caused the build to fail. You can refer to the build logs on Github but it might be easier to run <code>quarto render</code> locally and see what the error messages are from there.</p>
+<p>This is all automated and you <em>should</em> not need to manually activate these deployments however, if they fail you will not be able to merge your pull request and it is at this point that you will need to work out what has caused the build to fail. You can refer to the build logs on Github but it might be easier to run <code>quarto render</code> locally and see what the error messages are from there.</p>
+<p>The only time that you will need to first render the site locally before publishing is if you modify any code-based content. This is because we use the freeze functionality that allows us to store partial builds of the website nad makes remote rendering mush more efficient. Currently this will only apply to changes made to the collaborators map in <code>people.yml</code>.</p>
 
 
 </section>
