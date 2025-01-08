@@ -72,15 +72,21 @@ This will ensure that your contribution is rapidly reviewed and evaluated.
 ### Deployment
 
 While you are working on changes you can render the site locally using 
-`quarto render` and if you want to preview it you can use `quarto render`.
+`quarto render` and if you want to preview it you can use `quarto preview`.
 
 The website itself is deployed through github actions and is the reason that we 
 will use pull requests as a way to not only act as a checkpoint as to what 
 content is added to the website but also as a means to test that any changes that
 are made to the files will not break the deployment workflow.
 
-This is all automated and you do not need to manually activate these deployments 
+This is all automated and you *should* not need to manually activate these deployments 
 however, if they fail you will not be able to merge your pull request and it is
 at this point that you will need to work out what has caused the build to fail.
 You can refer to the build logs on Github but it might be easier to run 
 `quarto render` locally and see what the error messages are from there.
+
+The only time that you will need to first render the site locally before publishing
+is if you modify any code-based content. This is because we use the freeze 
+functionality that allows us to store partial builds of the website nad makes remote 
+rendering mush more efficient. Currently this will only apply to changes made to the
+collaborators map in `people.yml`.

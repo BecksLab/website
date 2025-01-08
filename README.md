@@ -16,4 +16,16 @@ For research group members that wish to either add/update content or report and 
 -   [Listings](https://quarto.org/docs/websites/website-listings.html) should be in their own folder and have the same name as their hosting page
 -   Additional code templates should be placed in `/assets`
 
+## Page content
+
+Below are the different pages and the content that they have
+
+| Page          | Content                                    |
+|:--------------|:-------------------------------------------|
+| index.qmd     | Homepage                                   |
+| join.qmd      | Information on joining research group      |
+| people.qmd    | List of members and collaborators          |
+| research.qmd  | Different research axes                    |
+| resources.qmd | Lab resources *e.g.,* tutorials & packages |
+| values.qmd    | Values statement                           |
 
