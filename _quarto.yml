@@ -29,7 +29,7 @@ website:
     right: 
       - icon: code
         text: "{{< fa code >}} Source code"
-        href: https://github.com/TanyaS08/TanyaDoesScience
+        href: https://github.com/BecksLab/website
 
 format:
   html:
