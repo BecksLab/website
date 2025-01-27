@@ -15,11 +15,11 @@ We believe that “science” is one way of learning about the world, alongside 
 
 We believe that curiosity-driven research can lead to actionable science, if it is used to generate questions, not give answers.
 
-We believe that algorithms cannot be trusted to make decisions on behalf of people. We subscribe to the principles outlined in the Montréal Declaration for a Responsible Development of Artifical Intelligence.
+We believe that algorithms cannot be trusted to make decisions on behalf of people. We subscribe to the principles outlined in the Montréal Declaration for a Responsible Development of Artificial Intelligence.
 
 ## Our commitments to open science
 
-First and foremost, we are an open science lab. There are several major facets to this, but the core is: the way this lab operates is inspired by the time that Tanya spent at the [Poisot lab](https://poisotlab.io/values/) and resets on the belief that participation in science is a public act, and done for public good. As such it is essential that we give back what we take from the community, while striving to cultivate a research space that is healthy, collaborative, and a truly inclusive.
+First and foremost, we are an open science lab. There are several major facets to this, but the core is: the way this lab operates is inspired by the time that Tanya spent at the [Poisot lab](https://poisotlab.io/values/) and rests on the belief that participation in science is a public act, and done for public good. As such it is essential that we give back what we take from the community, while striving to cultivate a research space that is healthy, collaborative, and a truly inclusive.
 
 This is our commitment, as open scientists:
 
