@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/people.html",
+    "items": []
+  },
+  {
     "listing": "/research.html",
     "items": [
       "/research/populations/index.html",
@@ -9,10 +13,6 @@
   },
   {
     "listing": "/resources.html",
-    "items": []
-  },
-  {
-    "listing": "/people.html",
     "items": []
   }
 ]
