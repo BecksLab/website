@@ -30,6 +30,9 @@ website:
       - icon: code
         text: "{{< fa code >}} Source code"
         href: https://github.com/BecksLab/website
+    center: 
+      - text: "Website made using Quarto"
+        href: https://quarto.org
 
 format:
   html:
