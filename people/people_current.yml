@@ -8,7 +8,7 @@
   twitter: beckerhopper
 - name: "Xiaoxiao Li"
   description: "Food web response to stress"
-  #image: people/mugshots/adanet.jpg
+  image: people/mugshots/xli.jpg
   github: XiaoxiaoLi-shelly
   orcid: 0000-0002-4029-2162
   #www: https://alaindanet.github.io/
@@ -47,9 +47,9 @@
   orcid: 0000-0003-3071-9668
   bluesky: blythpenelope.bsky.social
   googlescholar: i4ZskGMAAAAJ
-- name: "Zuzanna Zagrodka"
+- name: "Zuzanna Zagrodzka"
   description: ""
-  image: people/mugshots/zzagrodka.jpg
+  image: people/mugshots/zzagrodzka.jpg
 - name: "Dylan Childs"
   description: Population Dynamics
   image: people/mugshots/dchilds.jpg
