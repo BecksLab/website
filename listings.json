@@ -1,15 +1,15 @@
 [
   {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
     "listing": "/research.html",
     "items": [
       "/research/populations/index.html",
       "/research/foodwebs/index.html",
       "/research/conservation/index.html"
     ]
+  },
+  {
+    "listing": "/people.html",
+    "items": []
   },
   {
     "listing": "/resources.html",

@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://BecksLab.github.io/website/people.html</loc>
-    <lastmod>2025-01-27T13:08:21.305Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/research/conservation/index.html</loc>
-    <lastmod>2025-01-27T13:08:21.354Z</lastmod>
+    <loc>https://BecksLab.github.io/website/research.html</loc>
+    <lastmod>2025-03-04T13:55:46.966Z</lastmod>
   </url>
   <url>
     <loc>https://BecksLab.github.io/website/research/populations/index.html</loc>
-    <lastmod>2025-01-27T13:08:21.414Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/research.html</loc>
-    <lastmod>2025-01-27T13:08:21.331Z</lastmod>
+    <lastmod>2025-03-04T13:55:47.050Z</lastmod>
   </url>
   <url>
     <loc>https://BecksLab.github.io/website/join.html</loc>
-    <lastmod>2025-01-27T13:08:21.305Z</lastmod>
+    <lastmod>2025-03-04T13:55:46.936Z</lastmod>
   </url>
   <url>
     <loc>https://BecksLab.github.io/website/values.html</loc>
-    <lastmod>2025-01-27T13:08:21.414Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/resources.html</loc>
-    <lastmod>2025-01-27T13:08:21.414Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/index.html</loc>
-    <lastmod>2025-01-27T13:08:21.305Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/research/foodwebs/index.html</loc>
-    <lastmod>2025-01-27T13:08:21.374Z</lastmod>
+    <lastmod>2025-03-04T13:55:47.050Z</lastmod>
   </url>
   <url>
     <loc>https://BecksLab.github.io/website/CONTRIBUTING.html</loc>
-    <lastmod>2025-01-27T13:08:21.270Z</lastmod>
+    <lastmod>2025-03-04T13:55:46.900Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/people.html</loc>
+    <lastmod>2025-03-04T13:55:46.936Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/index.html</loc>
+    <lastmod>2025-03-04T13:55:46.936Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/resources.html</loc>
+    <lastmod>2025-03-04T13:55:47.050Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/research/conservation/index.html</loc>
+    <lastmod>2025-03-04T13:55:46.990Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/research/foodwebs/index.html</loc>
+    <lastmod>2025-03-04T13:55:47.010Z</lastmod>
   </url>
 </urlset>
