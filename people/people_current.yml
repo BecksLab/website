@@ -11,17 +11,8 @@
   image: people/mugshots/xli.jpg
   github: XiaoxiaoLi-shelly
   orcid: 0000-0002-4029-2162
-  #www: https://alaindanet.github.io/
   googlescholar: djmP82AAAAAJ
   email: xiaoxiao.li@sheffield.ac.uk
-- name: "Alain Danet"
-  description: "Stability of complex food webs"
-  image: people/mugshots/adanet.jpg
-  github: alaindanet
-  orcid: 0000-0002-1592-9483
-  www: https://alaindanet.github.io/
-  googlescholar: iijI6msAAAAJ
-  email: a.h.danet@sheffield.ac.uk
 - name: "Tanya Strydom"
   description: "🦖 DINOSAUR food webs"
   image: people/mugshots/tstrydom.png

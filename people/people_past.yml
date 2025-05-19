@@ -8,3 +8,11 @@
 - name: "Chris Griffiths"
   github: cagriffiths
   googlescholar: ctGKMk8AAAAJ
+- name: "Alain Danet"
+  description: "Stability of complex food webs"
+  image: people/mugshots/adanet.jpg
+  github: alaindanet
+  orcid: 0000-0002-1592-9483
+  www: https://alaindanet.github.io/
+  googlescholar: iijI6msAAAAJ
+  email: a.h.danet@sheffield.ac.uk
