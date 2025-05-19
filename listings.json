@@ -1,18 +1,18 @@
 [
   {
-    "listing": "/research.html",
-    "items": [
-      "/research/populations/index.html",
-      "/research/foodwebs/index.html",
-      "/research/conservation/index.html"
-    ]
+    "listing": "/resources.html",
+    "items": []
   },
   {
     "listing": "/people.html",
     "items": []
   },
   {
-    "listing": "/resources.html",
-    "items": []
+    "listing": "/research.html",
+    "items": [
+      "/research/populations/index.html",
+      "/research/foodwebs/index.html",
+      "/research/conservation/index.html"
+    ]
   }
 ]
