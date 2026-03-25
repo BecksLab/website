@@ -1,45 +1,38 @@
 [
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join Us",
     "section": "",
-    "text": "Look its a link to some resources related to our research."
+    "text": "Looking for a PhD? We typically work through doctoral training programmes in the UK and posts are advertised Nov-Dec.\nInternational students can apply at anytime. We are happy to help with applications for funding. Send your CV and ideas.\nWe’ve worked with students from Iraq, Kuwait, and Malaysia"
   },
   {
-    "objectID": "resources.html#julia",
-    "href": "resources.html#julia",
-    "title": "Resources",
-    "section": "Julia",
-    "text": "Julia\n\n\n    \n    \n        \n            \n        \n        \n            \n                EcologicalNetworksDynamics.jl\n            \n            \n                \n                    \n                    \n                      GitHub\n                    \n                    \n                    \n                      Preprint\n                    \n                    \n                \n            \n            A package for simulating species biomass dynamics in ecological networks for beginners and adventurous users alike.\n\n\n        \n    \n    \n    \n        \n            \n        \n        \n            \n                BEFW with Julia\n            \n            \n                \n                    \n                    \n                      Tutorials\n                    \n                    \n                \n            \n            A series of tutorials for getting started with Julia and the Bioenergetic Food Web model.\n\n\n        \n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "resources.html#r",
-    "href": "resources.html#r",
-    "title": "Resources",
-    "section": "R",
-    "text": "R\n\n\n    \n    \n        \n            \n        \n        \n            \n                R4All\n            \n            \n                \n                    \n                    \n                      Website\n                    \n                    \n                \n            \n            Book blah blah blah\n\n        \n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "research/populations/index.html",
-    "href": "research/populations/index.html",
-    "title": " Population Dynamics",
+    "objectID": "join.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612067726164756174696f6e2d636170203e7d7d-phd",
+    "href": "join.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612067726164756174696f6e2d636170203e7d7d-phd",
+    "title": "Join Us",
     "section": "",
-    "text": "blah blah blah…"
+    "text": "Looking for a PhD? We typically work through doctoral training programmes in the UK and posts are advertised Nov-Dec.\nInternational students can apply at anytime. We are happy to help with applications for funding. Send your CV and ideas.\nWe’ve worked with students from Iraq, Kuwait, and Malaysia"
   },
   {
-    "objectID": "research/populations/index.html#project-1",
-    "href": "research/populations/index.html#project-1",
-    "title": " Population Dynamics",
+    "objectID": "join.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207573657273203e7d7d-post-docs",
+    "href": "join.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207573657273203e7d7d-post-docs",
+    "title": "Join Us",
+    "section": " Post Docs",
+    "text": "Post Docs\nIf you are interested in joining the lab as a post doc, via fellowships or independent funding, get in touch with either Andrew or Dylan (email pending), including your CV and a letter describing your experience and interests.\nWe’ve hosted people from around the world including Chile, Sweden, Germany, and Australia\nPositions linked to grants will be posted here too."
+  },
+  {
+    "objectID": "join.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206d6170203e7d7d-short-visits",
+    "href": "join.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206d6170203e7d7d-short-visits",
+    "title": "Join Us",
+    "section": " Short Visits",
+    "text": "Short Visits\nWe welcome short visits, study leave and sabbatical visitors!"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "EcoForge",
     "section": "",
-    "text": "blah blah blah…"
-  },
-  {
-    "objectID": "research/populations/index.html#project-2",
-    "href": "research/populations/index.html#project-2",
-    "title": " Population Dynamics",
-    "section": " Project 2",
-    "text": "Project 2\n\n\nblah blah blah…"
+    "text": "Blah blah blah about research projects/axes\n\n\n\n\n\n\n\n\n\n\n Population Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Food webs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Conservation Biology\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/foodwebs/index.html",
@@ -77,32 +70,53 @@
     "text": "Stability\n\n\nHow does food web structure determine the temporal stability of ecological communities?\nWe work on how community structure and species interactions affect community stability."
   },
   {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join Us",
+    "objectID": "research/conservation/index.html",
+    "href": "research/conservation/index.html",
+    "title": " Conservation Biology",
     "section": "",
-    "text": "Looking for a PhD? We typically work through doctoral training programmes in the UK and posts are advertised Nov-Dec.\nInternational students can apply at anytime. We are happy to help with applications for funding. Send your CV and ideas.\nWe’ve worked with students from Iraq, Kuwait, and Malaysia"
+    "text": "The core underlying ethos running through all of my research is a drive to solve global challenges. I am currently focussed on, and working towards, describing biodiversity change and its drivers, and identifying pathways towards biodiversity protection and recovery, all whilst balancing the needs of people and society."
   },
   {
-    "objectID": "join.html#phd",
-    "href": "join.html#phd",
-    "title": "Join Us",
+    "objectID": "research/conservation/index.html#big-data-ecology",
+    "href": "research/conservation/index.html#big-data-ecology",
+    "title": " Conservation Biology",
     "section": "",
-    "text": "Looking for a PhD? We typically work through doctoral training programmes in the UK and posts are advertised Nov-Dec.\nInternational students can apply at anytime. We are happy to help with applications for funding. Send your CV and ideas.\nWe’ve worked with students from Iraq, Kuwait, and Malaysia"
+    "text": "The core underlying ethos running through all of my research is a drive to solve global challenges. I am currently focussed on, and working towards, describing biodiversity change and its drivers, and identifying pathways towards biodiversity protection and recovery, all whilst balancing the needs of people and society."
   },
   {
-    "objectID": "join.html#post-docs",
-    "href": "join.html#post-docs",
-    "title": "Join Us",
-    "section": " Post Docs",
-    "text": "Post Docs\nIf you are interested in joining the lab as a post doc, via fellowships or independent funding, get in touch with either Andrew or Dylan (email pending), including your CV and a letter describing your experience and interests.\nWe’ve hosted people from around the world including Chile, Sweden, Germany, and Australia\nPositions linked to grants will be posted here too."
+    "objectID": "research/conservation/index.html#human-wildlife-conflict",
+    "href": "research/conservation/index.html#human-wildlife-conflict",
+    "title": " Conservation Biology",
+    "section": " Human-wildlife Conflict",
+    "text": "Human-wildlife Conflict\n\n\nHow has conflict modified human-wildlife conflict?\nWe work on understanding human-wildlife interactions in human dominated landscapes in Africa. In particular we are interested in understanding diet shifts of large carnivores and how they adapt to changing environments."
   },
   {
-    "objectID": "join.html#short-visits",
-    "href": "join.html#short-visits",
-    "title": "Join Us",
-    "section": " Short Visits",
-    "text": "Short Visits\nWe welcome short visits, study leave and sabbatical visitors!"
+    "objectID": "research/conservation/index.html#parrots",
+    "href": "research/conservation/index.html#parrots",
+    "title": " Conservation Biology",
+    "section": " Parrots",
+    "text": "Parrots\n\n\n\n\n\nWe work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.\nWe have long term collaborations with the World Parrot Trust centred on biological and social science research into what makes parrot conservation work. We work in Bonaire on Yellow Shouldered Amazons, in Costa Rica on McCaws and theoretically on the demography and economics of parrots."
+  },
+  {
+    "objectID": "values.html",
+    "href": "values.html",
+    "title": "Values",
+    "section": "",
+    "text": "Welcome to the BioForge Research Group!\nWe encourage all individuals and organizations who are interested in developing and promoting best practice in the assessment of researchers and scholarly research to sign Declaration on Research Assessment (DORA).\nIn this lab, we study a variety of habitats, taxa and processes, with the core elements of using data, math and computational techniques to gain better understanding of ecological systems.\nWe are committed to applying what we learn to making the world a better place — by supporting sustainability and productivity in working ecosystems, by making the work we do accessible to the broader community, and by drawing in diverse viewpoints to enhance mutual understanding of science, scientists, and the needs of the world.\nWe believe that “science” is one way of learning about the world, alongside art, imagination, intuition, faith, vibes, …. We know there is value in pretending that the world can be simplified to mathematics or code, but we know these constructs are not truths.\nWe believe that curiosity-driven research can lead to actionable science, if it is used to generate questions, not give answers.\nWe believe that algorithms cannot be trusted to make decisions on behalf of people. We subscribe to the principles outlined in the Montréal Declaration for a Responsible Development of Artificial Intelligence."
+  },
+  {
+    "objectID": "values.html#our-commitments-to-open-science",
+    "href": "values.html#our-commitments-to-open-science",
+    "title": "Values",
+    "section": "Our commitments to open science",
+    "text": "Our commitments to open science\nFirst and foremost, we are an open science lab. There are several major facets to this, but the core is: the way this lab operates is inspired by the time that Tanya spent at the Poisot lab and rests on the belief that participation in science is a public act, and done for public good. As such it is essential that we give back what we take from the community, while striving to cultivate a research space that is healthy, collaborative, and a truly inclusive.\nThis is our commitment, as open scientists:\n\nDo no harm.\nMake supporting research data freely available whenever possible, to support future use in meta-analyses, reviews.\nRespect sensitive information and maintain the privacy and confidentiality in cases where data or research products require it.\nProduce and share reproducible, re-usable code, so people can understand our assumptions and workflows, and so that future scientists can learn from our efforts without needing to duplicate them.\nPublish final manuscripts AND intermediate research products in the most accessible formats available to us.\nSeek out the expertise of stakeholders outside our immediate research environment. Invite comment and participation. Welcome feedback.\nAcknowledge contributions to our work, and cite the ideas of others.\nAct as ambassadors of open science, to the broader scientific community and the world."
+  },
+  {
+    "objectID": "values.html#code-of-conduct",
+    "href": "values.html#code-of-conduct",
+    "title": "Values",
+    "section": "Code of conduct",
+    "text": "Code of conduct\n\nFlexible working hours\nThe assumption is that every member is already self-motivated and may choose to deviate from a traditional 9 to 5 to best suit their needs. They are welcome to send work-related messages, or submit pull requests outside of traditional working hours or days, with the expectation that other members are not required to respond to them outside of their typical working hours.\nMembers are welcome to work flexibly or remotely for any reason, however it is encouraged that they attend our weekly group meeting and to participate in activities."
   },
   {
     "objectID": "index.html",
@@ -110,6 +124,48 @@
     "title": "EcoForge",
     "section": "",
     "text": "ey up!\nWe work at the intersection of population and community ecology to help us understand the long-term stability of communities, using a combination of data-driven analyses and simulations.\nWe have a specific interest in ecological networks, allometry, and demography.\nLearn more about our research →"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Look its a link to some resources related to our research."
+  },
+  {
+    "objectID": "resources.html#julia",
+    "href": "resources.html#julia",
+    "title": "Resources",
+    "section": "Julia",
+    "text": "Julia\n\n\n    \n    \n        \n            \n        \n        \n            \n                EcologicalNetworksDynamics.jl\n            \n            \n                \n                    \n                    \n                      GitHub\n                    \n                    \n                    \n                      Preprint\n                    \n                    \n                \n            \n            A package for simulating species biomass dynamics in ecological networks for beginners and adventurous users alike.\n\n\n        \n    \n    \n    \n        \n            \n        \n        \n            \n                BEFW with Julia\n            \n            \n                \n                    \n                    \n                      Tutorials\n                    \n                    \n                \n            \n            A series of tutorials for getting started with Julia and the Bioenergetic Food Web model.\n\n\n        \n    \n    \n\nNo matching items"
+  },
+  {
+    "objectID": "resources.html#r",
+    "href": "resources.html#r",
+    "title": "Resources",
+    "section": "R",
+    "text": "R\n\n\n    \n    \n        \n            \n        \n        \n            \n                PFWIM\n            \n            \n                \n                    \n                    \n                      GitHub\n                    \n                    \n                \n            \n            Tools for reconstructing paleo food webs from species traits and size rules.\n\n        \n    \n    \n    \n        \n            \n        \n        \n            \n                R4All\n            \n            \n                \n                    \n                    \n                      Website\n                    \n                    \n                \n            \n            Book blah blah blah\n\n        \n    \n    \n\nNo matching items"
+  },
+  {
+    "objectID": "research/populations/index.html",
+    "href": "research/populations/index.html",
+    "title": " Population Dynamics",
+    "section": "",
+    "text": "blah blah blah…"
+  },
+  {
+    "objectID": "research/populations/index.html#project-1",
+    "href": "research/populations/index.html#project-1",
+    "title": " Population Dynamics",
+    "section": "",
+    "text": "blah blah blah…"
+  },
+  {
+    "objectID": "research/populations/index.html#project-2",
+    "href": "research/populations/index.html#project-2",
+    "title": " Population Dynamics",
+    "section": " Project 2",
+    "text": "Project 2\n\n\nblah blah blah…"
   },
   {
     "objectID": "CONTRIBUTING.html",
@@ -145,62 +201,6 @@
     "title": "Welcome!",
     "section": "",
     "text": "This section describes the general steps to make sure that your contribution is integrated rapidly. Note that the main branch is protected and you will be unable to make any changes directly but rather through pull requests. The general workflow is as follows:\n\nCreate an issue that outlines proposed content or fixes\nFork the repository (see Branches, etc. below)\nCreate an explicitly named branch from main\nCreate a pull request as soon as you make the first commit and link this to the relevant issue\nBe as explicit as possible on your goals\nDo not squash / rebase commits while you work – we will do so when merging\n\n\n\nCreating a pull request before you push any code will signal that you are interested in contributing to the project. Once this is done, push often, and be explicit about what the commits do (see commits, below). This gives the opportunity for feedback during your work, and allow for tweaks in what you are doing.\nA good pull request (in addition to satisfying to all of the criteria below) is:\n\nSingle purpose - it should do one thing, and one thing only\nShort - it should ideally involve less than 250 lines of code\nLimited in scope - it should ideally not span more than a handful of files\nWell tested and well documented\nWritten in a style similar to the rest of the codebase\n\nThis will ensure that your contribution is rapidly reviewed and evaluated.\n\n\n\nWhile you are working on changes you can render the site locally using quarto render and if you want to preview it you can use quarto preview.\nThe website itself is deployed through github actions and is the reason that we will use pull requests as a way to not only act as a checkpoint as to what content is added to the website but also as a means to test that any changes that are made to the files will not break the deployment workflow.\nThis is all automated and you should not need to manually activate these deployments however, if they fail you will not be able to merge your pull request and it is at this point that you will need to work out what has caused the build to fail. You can refer to the build logs on Github but it might be easier to run quarto render locally and see what the error messages are from there.\nThe only time that you will need to first render the site locally before publishing is if you modify any code-based content. This is because we use the freeze functionality that allows us to store partial builds of the website nad makes remote rendering mush more efficient. Currently this will only apply to changes made to the collaborators map in people.yml."
-  },
-  {
-    "objectID": "values.html",
-    "href": "values.html",
-    "title": "Values",
-    "section": "",
-    "text": "Welcome to the BioForge Research Group!\nWe encourage all individuals and organizations who are interested in developing and promoting best practice in the assessment of researchers and scholarly research to sign Declaration on Research Assessment (DORA).\nIn this lab, we study a variety of habitats, taxa and processes, with the core elements of using data, math and computational techniques to gain better understanding of ecological systems.\nWe are committed to applying what we learn to making the world a better place — by supporting sustainability and productivity in working ecosystems, by making the work we do accessible to the broader community, and by drawing in diverse viewpoints to enhance mutual understanding of science, scientists, and the needs of the world.\nWe believe that “science” is one way of learning about the world, alongside art, imagination, intuition, faith, vibes, …. We know there is value in pretending that the world can be simplified to mathematics or code, but we know these constructs are not truths.\nWe believe that curiosity-driven research can lead to actionable science, if it is used to generate questions, not give answers.\nWe believe that algorithms cannot be trusted to make decisions on behalf of people. We subscribe to the principles outlined in the Montréal Declaration for a Responsible Development of Artificial Intelligence."
-  },
-  {
-    "objectID": "values.html#our-commitments-to-open-science",
-    "href": "values.html#our-commitments-to-open-science",
-    "title": "Values",
-    "section": "Our commitments to open science",
-    "text": "Our commitments to open science\nFirst and foremost, we are an open science lab. There are several major facets to this, but the core is: the way this lab operates is inspired by the time that Tanya spent at the Poisot lab and rests on the belief that participation in science is a public act, and done for public good. As such it is essential that we give back what we take from the community, while striving to cultivate a research space that is healthy, collaborative, and a truly inclusive.\nThis is our commitment, as open scientists:\n\nDo no harm.\nMake supporting research data freely available whenever possible, to support future use in meta-analyses, reviews.\nRespect sensitive information and maintain the privacy and confidentiality in cases where data or research products require it.\nProduce and share reproducible, re-usable code, so people can understand our assumptions and workflows, and so that future scientists can learn from our efforts without needing to duplicate them.\nPublish final manuscripts AND intermediate research products in the most accessible formats available to us.\nSeek out the expertise of stakeholders outside our immediate research environment. Invite comment and participation. Welcome feedback.\nAcknowledge contributions to our work, and cite the ideas of others.\nAct as ambassadors of open science, to the broader scientific community and the world."
-  },
-  {
-    "objectID": "values.html#code-of-conduct",
-    "href": "values.html#code-of-conduct",
-    "title": "Values",
-    "section": "Code of conduct",
-    "text": "Code of conduct\n\nFlexible working hours\nThe assumption is that every member is already self-motivated and may choose to deviate from a traditional 9 to 5 to best suit their needs. They are welcome to send work-related messages, or submit pull requests outside of traditional working hours or days, with the expectation that other members are not required to respond to them outside of their typical working hours.\nMembers are welcome to work flexibly or remotely for any reason, however it is encouraged that they attend our weekly group meeting and to participate in activities."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "EcoForge",
-    "section": "",
-    "text": "Blah blah blah about research projects/axes\n\n\n\n\n\n\n\n\n\n\n Population Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Food webs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Conservation Biology\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/conservation/index.html",
-    "href": "research/conservation/index.html",
-    "title": " Conservation Biology",
-    "section": "",
-    "text": "The core underlying ethos running through all of my research is a drive to solve global challenges. I am currently focussed on, and working towards, describing biodiversity change and its drivers, and identifying pathways towards biodiversity protection and recovery, all whilst balancing the needs of people and society."
-  },
-  {
-    "objectID": "research/conservation/index.html#big-data-ecology",
-    "href": "research/conservation/index.html#big-data-ecology",
-    "title": " Conservation Biology",
-    "section": "",
-    "text": "The core underlying ethos running through all of my research is a drive to solve global challenges. I am currently focussed on, and working towards, describing biodiversity change and its drivers, and identifying pathways towards biodiversity protection and recovery, all whilst balancing the needs of people and society."
-  },
-  {
-    "objectID": "research/conservation/index.html#human-wildlife-conflict",
-    "href": "research/conservation/index.html#human-wildlife-conflict",
-    "title": " Conservation Biology",
-    "section": " Human-wildlife Conflict",
-    "text": "Human-wildlife Conflict\n\n\nHow has conflict modified human-wildlife conflict?\nWe work on understanding human-wildlife interactions in human dominated landscapes in Africa. In particular we are interested in understanding diet shifts of large carnivores and how they adapt to changing environments."
-  },
-  {
-    "objectID": "research/conservation/index.html#parrots",
-    "href": "research/conservation/index.html#parrots",
-    "title": " Conservation Biology",
-    "section": " Parrots",
-    "text": "Parrots\n\n\n\n\n\nWe work on parrots, linking their demography to socioeconomic constraints and trade-offs that influence their management as endangered species.\nWe have long term collaborations with the World Parrot Trust centred on biological and social science research into what makes parrot conservation work. We work in Bonaire on Yellow Shouldered Amazons, in Costa Rica on McCaws and theoretically on the demography and economics of parrots."
   },
   {
     "objectID": "people.html",

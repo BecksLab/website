@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://BecksLab.github.io/website/resources.html</loc>
-    <lastmod>2025-11-04T09:29:21.882Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/research/populations/index.html</loc>
-    <lastmod>2025-11-04T09:29:21.882Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/research/foodwebs/index.html</loc>
-    <lastmod>2025-11-04T09:29:21.842Z</lastmod>
-  </url>
-  <url>
     <loc>https://BecksLab.github.io/website/join.html</loc>
-    <lastmod>2025-11-04T09:29:21.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/index.html</loc>
-    <lastmod>2025-11-04T09:29:21.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/CONTRIBUTING.html</loc>
-    <lastmod>2025-11-04T09:29:21.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://BecksLab.github.io/website/values.html</loc>
-    <lastmod>2025-11-04T09:29:21.882Z</lastmod>
+    <lastmod>2026-03-25T11:00:21.918Z</lastmod>
   </url>
   <url>
     <loc>https://BecksLab.github.io/website/research.html</loc>
-    <lastmod>2025-11-04T09:29:21.798Z</lastmod>
+    <lastmod>2026-03-25T11:00:21.948Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/research/foodwebs/index.html</loc>
+    <lastmod>2026-03-25T11:00:21.992Z</lastmod>
   </url>
   <url>
     <loc>https://BecksLab.github.io/website/research/conservation/index.html</loc>
-    <lastmod>2025-11-04T09:29:21.822Z</lastmod>
+    <lastmod>2026-03-25T11:00:21.972Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/values.html</loc>
+    <lastmod>2026-03-25T11:00:22.039Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/index.html</loc>
+    <lastmod>2026-03-25T11:00:21.918Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/resources.html</loc>
+    <lastmod>2026-03-25T11:00:22.032Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/research/populations/index.html</loc>
+    <lastmod>2026-03-25T11:00:22.032Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BecksLab.github.io/website/CONTRIBUTING.html</loc>
+    <lastmod>2026-03-25T11:00:21.884Z</lastmod>
   </url>
   <url>
     <loc>https://BecksLab.github.io/website/people.html</loc>
-    <lastmod>2025-11-04T09:29:21.768Z</lastmod>
+    <lastmod>2026-03-25T11:00:21.919Z</lastmod>
   </url>
 </urlset>
