@@ -7,3 +7,5 @@ _site/
 
 # vscode
 .vscode/settings.json
+
+**/*.quarto_ipynb
