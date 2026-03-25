@@ -27,6 +27,13 @@ listing:
   - id: R
     template: assets/ejs/resources.ejs
     contents:
+        - title: PFWIM
+          description: "Tools for reconstructing paleo food webs from species traits and size rules."
+          logo: resources/pfwim.png
+          links:
+          - name: "GitHub"
+            icon: github
+            url: https://github.com/BecksLab/pfwim
         - title: R4All
           description: "Book blah blah blah"
           logo: resources/END.png
