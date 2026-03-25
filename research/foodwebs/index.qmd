@@ -12,17 +12,17 @@ lightbox: auto
 We connect foraging biology and species interactions to explore the dynamics of species and the stability, structure and function of ecological communities.
 
 <!-- PROJECT 1 -->
-## <i class="fa-solid fa-skull"></i> Paleo Networks
+## <i class="fa-solid fa-skull"></i> Extinctions
 ::: {.grid}
 
 ::: {.g-col-7}
-![](images/extinctions.png)
+![](images/cascade.png)
 :::
 
 ::: {.g-col-5}
-[How has ancient climate change driven patterns of diversity, stability, and the resilience of paleo communities?]{.research-question}
+[How does community structure mediate secondary extinction cascades and underpin marine ecosystem resilience during rapid climate change?]{.research-question}
 
-Food webs provide us with a means to understand community structure, and provides us a framework to understand how extinctions lead to the reorganisation or collapse of communities, ultimately allowing us to understand the reorganisation of communities following perturbation events.
+In collaboration with palaeontologists at the University of Leeds, the **CASCADE** project investigates how the structure of marine food webs determines whether an ecosystem collapses or survives during rapid climate change. By reconstructing ancient feeding networks and simulating extinction cascades, we test if modern ocean communities have evolved greater resilience to stressors like global warming and acidification compared to their prehistoric ancestors.
 :::
 
 :::
