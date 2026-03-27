@@ -9,7 +9,7 @@ editor: source
 lightbox: auto
 ---
 
-We connect foraging biology and species interactions to explore the dynamics of species and the stability, structure and function of ecological communities.
+We explore the structure, complexity and dynamics of food webs. We use optimal foraging theory to define the rules linking predators and prey. We predict the impacts of multiple simultaneous threats to ecosystems.
 
 <!-- PROJECT 1 -->
 ## <i class="fa-solid fa-skull"></i> Extinctions
