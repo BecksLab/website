@@ -5,7 +5,7 @@
   email: andrew.p.beckerman@sheffield.ac.uk
   github: andbeck
   orcid: 0000-0002-4797-9143
-  twitter: beckerhopper
+  bluesky: beckerhopper
 - name: "Xiaoxiao Li"
   description: "Food web response to stress"
   image: people/mugshots/xli.jpg
@@ -42,6 +42,7 @@
   description: Population Dynamics
   image: people/mugshots/dchilds.jpg
   github: dzchilds
+  bluesky: dzchilds
 - name: "Thomas Malpas"
   description: Birds (and some tipping points)
   image: people/mugshots/tmalpas.jpg
