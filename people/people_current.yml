@@ -52,11 +52,6 @@
 - name: "Laura Landon Blake"
   image: people/mugshots/llandonblake.jpg
   github: LalaBinks
-- name: "Gidey Yirga"
-  description: "Human-wildlife interactions"
-  image: people/mugshots/gyirga.jpg
-  googlescholar: 7vid7ScAAAAJ
-  email: g.abay@sheffield.ac.uk
 - name: "Thomas F. Johnson (Tom)"
   description: "Big Data, Modelling, Biodiversity"
   image: people/mugshots/tjohnson.jpg

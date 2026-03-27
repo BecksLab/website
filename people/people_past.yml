@@ -19,3 +19,8 @@
 - name: "Alina Smith"
   description: ""
   image: people/mugshots/asmith.jpg
+- name: "Gidey Yirga"
+  description: "Human-wildlife interactions"
+  image: people/mugshots/gyirga.jpg
+  googlescholar: 7vid7ScAAAAJ
+  email: g.abay@sheffield.ac.uk
